@@ -1,5 +1,7 @@
 import React from 'react'
 import Link from 'gatsby-link'
+import Sidebar from '../components/Sidebar/Sidebar'
+import Content from '../components/Content/Content'
 
 class Template extends React.Component {
   render() {
@@ -55,14 +57,12 @@ class Template extends React.Component {
     return (
       <div
         style={{
-          marginLeft: 'auto',
-          marginRight: 'auto',
-          maxWidth: '45em',
-          padding: '1em',
+          display: 'flex',
         }}
       >
-        {header}
-        {children()}
+        {/* {header} */}
+        <Sidebar></Sidebar>
+        <Content>{children()}</Content>
       </div>
     )
   }

@@ -1,0 +1,44 @@
+.Sidebar {
+	background-color: #F5F5F5;
+	text-align: center;
+	padding: 2em;
+	width: 300px;
+	padding-top: 60px;
+	flex: 2;
+}
+
+.name {
+	font-size: 30pt;
+	margin-bottom: 10px;
+}
+
+.profilePic {
+	width: 200px;
+	margin: 0 auto;
+	border-radius: 50%;
+}
+
+.subtitle {
+	color: rgba(0, 0, 0, 0.6);
+	font-size: 12pt;
+}
+
+/* #about-me {
+	text-align: left;
+	padding: 2em 0;
+	color: #333;
+} */
+
+.contact {
+	padding: 20px 0;
+}
+
+.contact a {
+	padding: 10px;
+	font-size: 30px;
+	color: #555;
+}
+
+.contact a:hover {
+	color: #333;
+}

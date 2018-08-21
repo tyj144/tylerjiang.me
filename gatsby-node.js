@@ -54,11 +54,13 @@ exports.createPages = ({ graphql, boundActionCreators }) => {
   })
 }
 
+const blogLocation = '/blog';
+
 exports.onCreateNode = ({ node, boundActionCreators, getNode }) => {
   const { createNodeField } = boundActionCreators
 
   if (node.internal.type === `MarkdownRemark`) {
-    const value = createFilePath({ node, getNode })
+    const value = blogLocation + createFilePath({ node, getNode })
     createNodeField({
       name: `slug`,
       node,

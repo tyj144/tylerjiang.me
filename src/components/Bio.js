@@ -18,7 +18,7 @@ class Bio extends React.Component {
           src={profilePic}
           alt="Tyler Jiang"
           style={{
-            width: '50px',
+            // width: '50px',
             height: '50px',
             marginRight: '25px',
             marginBottom: 0,
