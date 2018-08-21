@@ -1,8 +1,6 @@
 import React from 'react'
 import Link from 'gatsby-link'
 
-import { rhythm, scale } from '../utils/typography'
-
 class Template extends React.Component {
   render() {
     const { location, children } = this.props
@@ -17,8 +15,7 @@ class Template extends React.Component {
       header = (
         <h1
           style={{
-            ...scale(1.5),
-            marginBottom: rhythm(1.5),
+            // marginBottom: '1.5em',
             marginTop: 0,
           }}
         >
@@ -60,8 +57,8 @@ class Template extends React.Component {
         style={{
           marginLeft: 'auto',
           marginRight: 'auto',
-          maxWidth: rhythm(24),
-          padding: `${rhythm(1.5)} ${rhythm(3 / 4)}`,
+          maxWidth: '45em',
+          padding: '1em',
         }}
       >
         {header}
