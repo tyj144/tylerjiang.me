@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './Sidebar.module.css';
+import styles from './Sidebar.module.scss';
 import profilePic from '../../images/profile-pic.jpg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faLinkedinIn } from '@fortawesome/free-brands-svg-icons';

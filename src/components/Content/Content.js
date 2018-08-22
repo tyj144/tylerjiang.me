@@ -1,11 +1,8 @@
 import React from 'react';
+import styles from './Content.module.scss';
 
 const Content = (props) => 
-    <div
-        style={{
-            padding: '1em'
-        }}
-        className="Content">
+    <div className={styles.Content}>
         {props.children}
     </div>;
 

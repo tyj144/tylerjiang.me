@@ -2,6 +2,7 @@ import React from 'react'
 import Link from 'gatsby-link'
 import Sidebar from '../components/Sidebar/Sidebar'
 import Content from '../components/Content/Content'
+import './index.scss';
 
 class Template extends React.Component {
   render() {
@@ -55,15 +56,11 @@ class Template extends React.Component {
       )
     }
     return (
-      <div
-        style={{
-          display: 'flex',
-        }}
-      >
+      <main>
         {/* {header} */}
         <Sidebar></Sidebar>
         <Content>{children()}</Content>
-      </div>
+      </main>
     )
   }
 }

@@ -2,6 +2,7 @@ const _ = require('lodash')
 const Promise = require('bluebird')
 const path = require('path')
 const { createFilePath } = require('gatsby-source-filesystem')
+const { routes } = require('./routes')
 
 exports.createPages = ({ graphql, boundActionCreators }) => {
   const { createPage } = boundActionCreators
@@ -15,11 +16,13 @@ exports.createPages = ({ graphql, boundActionCreators }) => {
             allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }, limit: 1000) {
               edges {
                 node {
+                  excerpt
                   fields {
                     slug
                   }
                   frontmatter {
                     title
+                    date(formatString: "MMMM DD, YYYY")
                   }
                 }
               }
@@ -34,6 +37,14 @@ exports.createPages = ({ graphql, boundActionCreators }) => {
 
         // Create blog posts pages.
         const posts = result.data.allMarkdownRemark.edges;
+
+        _.each(routes, route => {
+          const context = route.path === '/blog' ? { posts } : {};
+          createPage({
+            ...route,
+            context
+          })
+        })
 
         _.each(posts, (post, index) => {
           const previous = index === posts.length - 1 ? null : posts[index + 1].node;
