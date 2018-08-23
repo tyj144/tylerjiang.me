@@ -1,0 +1,112 @@
+{
+    "name": "Tyler Jiang",
+    "email": "tyler_jiang@brown.edu",
+    "sections": [
+        {
+            "name": "Education",
+            "items": [
+                {
+                    "title": "Brown University",
+                    "date": "Expected Graduation May 2021",
+                    "bullets": [
+                        {
+                            "content": "B.Sc. in Computer Science",
+                            "subBullets": [
+                                { "content": "GPA: 4.0 / 4.0" },
+                                { "content": "Relevant Courses: Intro to Software Engineering, Intro to Discrete Structures and Probability, Accelerated Intro to CS, Multivariable Calculus" }
+                                
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Nashua High School North",
+                    "date": "June 2017",
+                    "bullets": [
+                        { "content": "Graduated salutatorian (2 out of ~450 people) in the class of 2017" }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Work Experience",
+            "items": [
+                { 
+                    "title": "Fidelity Investments",
+                    "subtitle": "Software Engineering Intern",
+                    "date": "May - Aug 2018",
+                    "bullets": []
+                },
+                { 
+                    "title": "Brown Political Review",
+                    "subtitle": "Data Associate",
+                    "date": "Jan 2018 - Present",
+                    "bullets": [
+                        { "content": "Built a Django web app for displaying and storing articles and interactive D3 infographics from scratch" },
+                        { "content": "Implemented a database using PostgreSQL to manage articles, deployed on Heroku" }
+                    ]
+                },
+                { 
+                    "title": "Brown Computing and Information Services",
+                    "subtitle": "Student Technician",
+                    "date": "Jan 2018 - Present",
+                    "bullets": [
+                        { "content": "Managed AV equipment for student events of up to 100 people, repaired projectors, troubleshot presentation software" }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Awards",
+            "items": [
+                { 
+                    "title": "American Computer Science League All-Star Finalist",
+                    "date": "Jun 2016",
+                    "bullets": [
+                        { "content": "Invited to participate in the All-Star Contest, a national competition for top scoring teams" }
+                    ]
+                },
+                { 
+                    "title": "American Regional Mathematics League Team High Scorer ",
+                    "date": "May 2016",
+                    "bullets": [
+                        { "content": "Earned a medal for most points scored on the New Hampshire state team at ARML 2016, a national mathematics tournament" }
+                    ]
+                },
+                { 
+                    "title": "National Merit Finalist",
+                    "date": "Mar 2017",
+                    "bullets": []
+                },
+                { 
+                    "title": "National AP Scholar",
+                    "date": "July 2017",
+                    "bullets": [
+                        { "content": "Earned after scoring 5 out of 5 on 10 AP exams." }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Athletics",
+            "items": [
+                { 
+                    "title": "Boys Varsity Soccer",
+                    "subtitle": "3 years",
+                    "date": "Sept 2015 - Nov 2017",
+                    "bullets": [
+                        { "content": "Awarded Defensive Player of the Year (12), All-Area Team (12), center back on top 10 defense in NH (goals allowed)" }
+                    ]
+                },
+                { 
+                    "title": "Boys Varsity Track and Field",
+                    "subtitle": "4 years",
+                    "date": "March 2014 - June 2017",
+                    "bullets": [
+                        { "content": "10th place, 55m hurdles at 2017 Division I Indoor Track & Field Championship" }
+                    ]
+                }
+            ]
+        }
+    ]
+}

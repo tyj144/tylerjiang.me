@@ -1,0 +1,14 @@
+.title {
+    display: flex;
+    justify-content: space-between;
+}
+
+.itemHeader,
+.itemDate {
+    margin: 0;
+}
+
+.itemSubtitle {
+    font-style: italic;
+    font-weight: normal;
+}
