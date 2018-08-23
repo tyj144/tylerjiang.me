@@ -10,7 +10,7 @@ const Projects = () => (
                 <p>{project.tools.join(', ')}</p>
                 { project.images ?
                     project.images.map(image =>
-                        <div style={{ 'display': 'flex', 'justify-content': 'center' }}>
+                        <div style={{ 'text-align': 'center' }}>
                             <img src={image.src} alt={image.alt} style={{maxHeight: '350px', maxWidth: '100%'}}/>
                         </div>
                     )
