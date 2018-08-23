@@ -1,6 +1,14 @@
-.title {
+.itemTitleContainer {
     display: flex;
     justify-content: space-between;
+}
+
+// .itemHeaderContainer {
+
+// }
+
+.itemDateContainer {
+    text-align: right;
 }
 
 .itemHeader,
@@ -11,4 +19,14 @@
 .itemSubtitle {
     font-style: italic;
     font-weight: normal;
+}
+
+@media (max-width: 975px) {
+    .itemTitleContainer {
+        justify-content: initial;
+        flex-direction: column;
+    }
+    .itemDateContainer {
+        text-align: left;
+    }
 }

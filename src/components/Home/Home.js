@@ -6,7 +6,7 @@ const Home = () => (
     <div className={styles.Home}>
         {sections.map(section => (
             <div key={section.id} className={styles.section}>
-                <div>
+                <div className={styles.imageContainer}>
                     <img src={section.img.src} alt={section.img.alt} />
                 </div>
                 <div className={styles.textContainer}>

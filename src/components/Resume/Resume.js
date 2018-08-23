@@ -13,11 +13,15 @@ const Resume = () => (
                 <h2>{section.name}</h2>
                 {section.items.map(item => (
                     <div className={styles.item}>
-                        <div className={styles.title}>
-                            <h3 className={styles.itemHeader}>
-                                {item.title}{item.subtitle ? <span className={styles.itemSubtitle}>, {item.subtitle}</span> : ''}
-                            </h3>
-                            <p className={styles.itemDate}>{item.date}</p>
+                        <div className={styles.itemTitleContainer}>
+                            <div className={styles.itemHeaderContainer}>
+                                <h3 className={styles.itemHeader}>
+                                    {item.title}{item.subtitle ? <span className={styles.itemSubtitle}>, {item.subtitle}</span> : ''}
+                                </h3>
+                            </div>
+                            <div className={styles.itemDateContainer}>
+                                <p className={styles.itemDate}>{item.date}</p>
+                            </div>
                         </div>
                         <div>
                             <ul>

@@ -6,12 +6,12 @@ const Projects = () => (
         <h1>Projects</h1>
         {projects.map(project => 
             <div className="project" key={project.name.toLowerCase()}>
-                <h2>{project.name}</h2>
-                <span>{project.tools.join(', ')}</span>
+                <h2 style={{marginBottom: 0}}>{project.name}</h2>
+                <p>{project.tools.join(', ')}</p>
                 { project.images ?
                     project.images.map(image =>
-                        <div>
-                            <img src={image.src} alt={image.alt} style={{maxHeight: '250px'}}/>
+                        <div style={{ 'display': 'flex', 'justify-content': 'center' }}>
+                            <img src={image.src} alt={image.alt} style={{maxHeight: '350px', maxWidth: '100%'}}/>
                         </div>
                     )
                     : ''

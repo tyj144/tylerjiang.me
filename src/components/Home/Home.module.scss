@@ -43,7 +43,7 @@
 		width: 150px;
 	}
 	.Home {
-		padding: 30px 20px;
+		padding: initial;
 	}
 	.Home img {
 		width: 90px;
@@ -52,18 +52,18 @@
 		margin: 0;
 		margin-bottom: 20px;
 	}
-	.img-container {
+	.imageContainer {
 		display: flex;
 		align-items: center;
 	}
 }
 
 @media (max-width: 320px) {
-	.Home .row {
+	.section {
 		display: flex;
 		flex-direction: column;
 	}
-	.img-container { 
+	.imageContainer { 
 		margin: 0 auto;
 		margin-bottom: 20px;
 	}
