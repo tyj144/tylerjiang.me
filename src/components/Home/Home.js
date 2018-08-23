@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from './Home.module.scss';
-import sections from './HomeContent';
+import sections from '../../data/HomeContent';
 
 const Home = () => (
     <div className={styles.Home}>

@@ -1,8 +1,8 @@
 import React from 'react';
-import brownLogo from '../../images/brown-logo.png';
-import bprLogo from '../../images/bpr-logo.png';
-import fidelityLogo from '../../images/fidelity.jpg';
-import elephluentLogo from '../../images/elephluent.png';
+import brownLogo from '../images/brown-logo.png';
+import bprLogo from '../images/bpr-logo.png';
+import fidelityLogo from '../images/fidelity.jpg';
+import elephluentLogo from '../images/elephluent.png';
 
 export default [
     {

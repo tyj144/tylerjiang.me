@@ -1,5 +1,5 @@
 import React, { Fragment } from 'react';
-import resume from './Resume.json';
+import resume from '../../data/Resume.json';
 import styles from './Resume.module.scss';
 
 import Helmet from 'react-helmet';
