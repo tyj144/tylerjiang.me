@@ -1,6 +1,7 @@
 
 export default [    {
         "name": "Elephluent",
+        "partners": ["Dat-Thanh Nguyen", "Kristen Mashikian","Shekar Ramaswamy"],
         "images": [
             {
                 "src": require('../images/projects/elephluent/dashboard.png'),
@@ -28,6 +29,80 @@ export default [    {
         "links": [
             { "name": "Frontend Demo", "url": "https://elephluent.github.io" },
             { "name": "GitHub", "url": "https://github.com/elephluent/elephluent.github.io" }
+        ]
+    },
+    {
+        "name": "Maps",
+        "partners": ["Oscar Newman"],
+        "images": [
+            {
+                "src": require('../images/projects/maps/maps.png'),
+                "alt": "Maps screenshot"
+            }
+        ],
+        "tools": [ "HTML", "CSS", "jQuery", "Java" ],
+        "description": [
+            "Worked in a team of two to implement an interactive Google Maps clone with pan and zoom using HTML Canvas, jQuery, and Java",
+            "Implemented the A* algorithm to optimize finding the shortest path between two locations",
+            "Implemented a KD-tree to increase efficiency when searching for locations nearby a given coordinate",
+        ],
+        "links": []
+    },
+    {
+        "name": "Autocorrect",
+        "partners": [],
+        "images": [
+            {
+                "src": require('../images/projects/autocorrect/autocorrect.png'),
+                "alt": "Autocorrect screenshot"
+            }
+        ],
+        "tools": [ "HTML", "CSS", "jQuery", "Java" ],
+        "description": [
+            "Implemented an autocorrect service from scratch using tries",
+            "Built a REST service with endpoints to get autocorrect suggestions, rendered them in a single page application using AJAX calls (through jQuery)",
+            "Created suggestions based on Levenshtein edit distance, prefix matching, and if the user accidentally combined two words or hit nearby keys",
+            
+        ],
+        "links": []
+    },
+    {
+        "name": "Bacon",
+        "partners": [],
+        "images": [
+            {
+                "src": require('../images/projects/bacon/actor.png'),
+                "alt": "Bacon actor screenshot"
+            }
+        ],
+        "tools": [ "HTML", "CSS", "jQuery", "Java" ],
+        "description": [
+            "Implemented a dynamic version of Dijkstra’s algorithm to calculate a specialized version of the famous \"Six Degrees of Bacon\"",
+            "Used the proxy pattern to lazily read data from a SQLite database of actors and movies, used caching and profiling to improve algorithm performance"
+            
+            
+        ],
+        "links": []
+    },
+    {
+        "name": "First Drafts",
+        "partners": ["Aansh Shah", "Zachary Horvitz"],
+        "images": [
+            {
+                "src": require('../images/projects/first-drafts/first-drafts.png'),
+                "alt": "First Drafts website screenshot"
+            }
+        ],
+        "tools": [ "HTML", "CSS", "jQuery", "Java" ],
+        "description": [
+            "Led the effort to deploy a web platform for the Brown Political Review data board",
+            "Built a Django web app for displaying and storing articles and interactive D3 infographics from scratch",
+            "Implemented a database using PostgreSQL to manage articles, deployed on Heroku"
+            
+            
+        ],
+        "links": [
+            { "name": "Link", "url": "http://firstdrafts.herokuapp.com/" }
         ]
     },
     {
@@ -117,40 +192,40 @@ export default [    {
             { "name": "GitHub", "url": "https://github.com/tyj144/flight-finder" }
         ]
     },
-    {
-        "name": "Chinese Bible Church of Greater Nashua",
-        "images": [
-            {
-                "src": "",
-                "alt": ""
-            }
-        ],
-        "tools": [ "Django", "Python" ],
-        "description": [
-            "Redesigned the front end and back end of a church website and implemented a database for upcoming events and sermons in PostgreSQL.",
-            "Built a web scraper to fetch 200+ sermons from old website to ease the transition of moving to new site."
-        ],
-        "links": [
-            { "name": "Link", "url": "http://cbcgn.herokuapp.com/" },
-            { "name": "GitHub", "url": "https://github.com/tyj144/cbcgn-site" }
-        ]
-    },
-    {
-        "name": "Wall of Things",
-        "images": [
-            {
-                "src": "",
-                "alt": ""
-            }
-        ],
-        "tools": [ "Django", "Python" ],
-        "description": [
-            "Created a web app where people can log in and leave a message on the Wall of Things.",
-            "Implemented a database in PostgreSQL to store the messages that users leave."
-        ],
-        "links": [
-            { "name": "Link", "url": "http://wallofthings.herokuapp.com/" },
-            { "name": "GitHub", "url": "https://github.com/tyj144/wall-of-things" }
-        ]
-    }
+    // {
+    //     "name": "Chinese Bible Church of Greater Nashua",
+    //     "images": [
+    //         {
+    //             "src": "",
+    //             "alt": ""
+    //         }
+    //     ],
+    //     "tools": [ "Django", "Python" ],
+    //     "description": [
+    //         "Redesigned the front end and back end of a church website and implemented a database for upcoming events and sermons in PostgreSQL.",
+    //         "Built a web scraper to fetch 200+ sermons from old website to ease the transition of moving to new site."
+    //     ],
+    //     "links": [
+    //         { "name": "Link", "url": "http://cbcgn.herokuapp.com/" },
+    //         { "name": "GitHub", "url": "https://github.com/tyj144/cbcgn-site" }
+    //     ]
+    // },
+    // {
+    //     "name": "Wall of Things",
+    //     "images": [
+    //         {
+    //             "src": "",
+    //             "alt": ""
+    //         }
+    //     ],
+    //     "tools": [ "Django", "Python" ],
+    //     "description": [
+    //         "Created a web app where people can log in and leave a message on the Wall of Things.",
+    //         "Implemented a database in PostgreSQL to store the messages that users leave."
+    //     ],
+    //     "links": [
+    //         { "name": "Link", "url": "http://wallofthings.herokuapp.com/" },
+    //         { "name": "GitHub", "url": "https://github.com/tyj144/wall-of-things" }
+    //     ]
+    // }
 ]
