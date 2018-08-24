@@ -24,7 +24,7 @@ export default [
             alt: 'Brown Political Review logo'
         },
         text: [
-            <p>I'm also a Data Associate for the Brown Political Review’s Data Board, where I work on the <a href="http://firstdrafts.herokuapp.com/">web platform</a>, which houses our news articles, interactive infographics, and data-related news features.</p>,
+            <p>I'm also a Data Associate for the Brown Political Review’s Data Board. There, I work on the <a href="http://firstdrafts.herokuapp.com/">web platform</a>, which houses our news articles, interactive infographics, and data-related news features.</p>,
         ]
     },
     {

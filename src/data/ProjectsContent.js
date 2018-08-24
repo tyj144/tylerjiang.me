@@ -49,42 +49,6 @@ export default [    {
         "links": []
     },
     {
-        "name": "Autocorrect",
-        "partners": [],
-        "images": [
-            {
-                "src": require('../images/projects/autocorrect/autocorrect.png'),
-                "alt": "Autocorrect screenshot"
-            }
-        ],
-        "tools": [ "HTML", "CSS", "jQuery", "Java" ],
-        "description": [
-            "Implemented an autocorrect service from scratch using tries",
-            "Built a REST service with endpoints to get autocorrect suggestions, rendered them in a single page application using AJAX calls (through jQuery)",
-            "Created suggestions based on Levenshtein edit distance, prefix matching, and if the user accidentally combined two words or hit nearby keys",
-            
-        ],
-        "links": []
-    },
-    {
-        "name": "Bacon",
-        "partners": [],
-        "images": [
-            {
-                "src": require('../images/projects/bacon/actor.png'),
-                "alt": "Bacon actor screenshot"
-            }
-        ],
-        "tools": [ "HTML", "CSS", "jQuery", "Java" ],
-        "description": [
-            "Implemented a dynamic version of Dijkstra’s algorithm to calculate a specialized version of the famous \"Six Degrees of Bacon\"",
-            "Used the proxy pattern to lazily read data from a SQLite database of actors and movies, used caching and profiling to improve algorithm performance"
-            
-            
-        ],
-        "links": []
-    },
-    {
         "name": "First Drafts",
         "partners": ["Aansh Shah", "Zachary Horvitz"],
         "images": [
@@ -106,6 +70,24 @@ export default [    {
         ]
     },
     {
+        "name": "Autocorrect",
+        "partners": [],
+        "images": [
+            {
+                "src": require('../images/projects/autocorrect/autocorrect.png'),
+                "alt": "Autocorrect screenshot"
+            }
+        ],
+        "tools": [ "HTML", "CSS", "jQuery", "Java" ],
+        "description": [
+            "Implemented an autocorrect service from scratch using tries",
+            "Built a REST service with endpoints to get autocorrect suggestions, rendered them in a single page application using AJAX calls (through jQuery)",
+            "Created suggestions based on Levenshtein edit distance, prefix matching, and if the user accidentally combined two words or hit nearby keys",
+            
+        ],
+        "links": []
+    },
+    {
         "name": "tylerjiang.me",
         "partners": [],
         "images": [
@@ -121,6 +103,25 @@ export default [    {
         "links": [
             { "name": "Link", "url": "/" }
         ]
+    },
+
+    {
+        "name": "Bacon",
+        "partners": [],
+        "images": [
+            {
+                "src": require('../images/projects/bacon/actor.png'),
+                "alt": "Bacon actor screenshot"
+            }
+        ],
+        "tools": [ "HTML", "CSS", "jQuery", "Java" ],
+        "description": [
+            "Implemented a dynamic version of Dijkstra’s algorithm to calculate a specialized version of the famous \"Six Degrees of Bacon\"",
+            "Used the proxy pattern to lazily read data from a SQLite database of actors and movies, used caching and profiling to improve algorithm performance"
+            
+            
+        ],
+        "links": []
     },
     {
         "name": "SpeakEasy",
