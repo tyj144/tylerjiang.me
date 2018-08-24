@@ -5,6 +5,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faLinkedinIn } from '@fortawesome/free-brands-svg-icons';
 import { faEnvelope, faFileAlt } from '@fortawesome/free-solid-svg-icons';
 import Nav from './Nav/Nav';
+import resume from '../../documents/Resume-PUB.pdf';
 
 const navItems = [
     { text: 'Home', link: '/' },
@@ -25,7 +26,7 @@ const Sidebar = () => (
             <a href="https://github.com/tyj144">
                 <FontAwesomeIcon icon={faGithub} />
             </a>
-            <a href="doc/Resume-PUB.pdf">
+            <a href={resume}>
                 <FontAwesomeIcon icon={faFileAlt} />
             </a>
             <a href="https://www.linkedin.com/in/tyler-jiang-22a22a150/">
