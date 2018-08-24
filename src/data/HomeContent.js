@@ -44,7 +44,7 @@ export default [
             alt: 'Elephluent logo'
         },
         text: [
-            <p>I, along with three of my friends, recently created <a href="https://elephluent.github.io/">Elephluent</a>, a web app that teaches kids new languages in a fun and meaningful way.</p>
+            <p>I, along with three of my friends, created <a href="https://elephluent.github.io/">Elephluent</a>, a web app that teaches kids new languages in a fun and meaningful way.</p>
         ]
     }
 ];

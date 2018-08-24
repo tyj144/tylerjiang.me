@@ -93,7 +93,7 @@ export default [    {
                 "alt": "First Drafts website screenshot"
             }
         ],
-        "tools": [ "HTML", "CSS", "jQuery", "Java" ],
+        "tools": [ "HTML", "CSS", "Django", "Python", "PostgreSQL" ],
         "description": [
             "Led the effort to deploy a web platform for the Brown Political Review data board",
             "Built a Django web app for displaying and storing articles and interactive D3 infographics from scratch",
@@ -107,15 +107,16 @@ export default [    {
     },
     {
         "name": "tylerjiang.me",
+        "partners": [],
         "images": [
-            // {
-            //     "src": "",
-            //     "alt": ""
-            // }
+            {
+                "src": require('../images/projects/tylerjiang-me/tylerjiang-me.png'),
+                "alt": "Tyler Jiang personal site screenshot"
+            }
         ],
-        "tools": [ "Gatsby.js (React and GraphQL)", "SASS" ],
+        "tools": [ "Gatsby.js (React and GraphQL)", "SASS", "Netlify" ],
         "description": [
-            "Built my personal website using Gatsby.js, the static site generator based on React and GraphQL."
+            "Built my personal website using Gatsby.js, the static site generator based on React and GraphQL. Deployed with Netlify."
         ],
         "links": [
             { "name": "Link", "url": "/" }
@@ -123,6 +124,7 @@ export default [    {
     },
     {
         "name": "SpeakEasy",
+        "partners": ["Fenil Doshi", "Rohit Saha", "Samuel Zhang"],
         "images": [
             {
                 "src": require('../images/projects/speakeasy/home.png'),
@@ -136,12 +138,13 @@ export default [    {
             "Implemented video recording with JavaScript and designed the frontend using HTML, CSS, and Bootstrap."
         ],
         "links": [
-            { "name": "Frontend Demo", "url": "/speakeasy-frontend/" },
+            { "name": "Frontend Demo", "url": "https://tyj144.github.io/speakeasy-frontend/" },
             { "name": "GitHub", "url": "https://github.com/tyj144/speakeasy" }
         ]
     },
     {
         "name": "Google Calendar Automator",
+        "partners": ["Randy Wang", "Nishanth Duriarasu", "Kevin Kelly"],
         "images": [
             {
                 "src": require('../images/projects/google-calendar-automator/cal-auto.png'),
@@ -159,13 +162,14 @@ export default [    {
     },
     {
         "name": "Chatterbox",
+        "partners": [],
         "images": [
             {
                 "src": require('../images/projects/chatterbox/chatterbox.png'),
                 "alt": ""
             }
         ],
-        "tools": [ "Android SDK", "Java" ],
+        "tools": [ "Android SDK", "Java", "Firebase" ],
         "description": [
             "Created a chat application for Android in Java which allows users to and send and receive messages online.",
             "Stored messages in a database and managed user authentication with Firebase."
@@ -176,6 +180,7 @@ export default [    {
     },
     {
         "name": "Flight Finder",
+        "partners": ["Dylan Sam", "Ryan Choi", "Sonny Mo"],
         "images": [
             {
                 "src": require('../images/projects/flight-finder/home.png'),

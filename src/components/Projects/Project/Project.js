@@ -6,7 +6,7 @@ const Project = (props) => {
     return (
         <div className={[styles.Project].join(' ')} key={project.name.toLowerCase()}>
             <div style={{display: 'flex', flexDirection: 'row', alignItems: 'baseline' }}>
-                <h2 style={{marginBottom: 0}}>{project.name}</h2>
+                <h2 style={{margin: 0}}>{project.name}</h2>
                 <p style={{marginLeft: '1rem', color: '#555' }}>{project.tools.join(', ')}</p>
             </div>
             { project.images ?
