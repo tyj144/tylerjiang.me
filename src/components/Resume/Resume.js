@@ -6,7 +6,10 @@ import Helmet from 'react-helmet';
 
 const Resume = () => (
     <div className="Resume">
-        <Helmet title="Resume"></Helmet>
+        <Helmet
+            title="Resume"
+            meta={[{"name": "description", "content": "Take a look at my resume."}]}
+        />
         <h1>Resume</h1>
         {resume.sections.map(section => 
             <div key={section.name.replace(' ', '-').toLowerCase()} className={styles.section}>

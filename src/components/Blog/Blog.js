@@ -5,12 +5,15 @@ import Posts from './Posts/Posts'
 
 class Blog extends Component {
   render() {
-    const siteTitle = get(this, 'props.data.site.siteMetadata.title')
+    // const siteTitle = get(this, 'props.data.site.siteMetadata.title')
     const posts = get(this, 'props.data.allMarkdownRemark.edges')
 
     return (
       <div>
-        <Helmet title={siteTitle} />
+        <Helmet
+            title="Blog"
+            meta={[{"name": "description", "content": "A place where I write about things that matter to me."}]}
+        />
         <h1>Blog</h1>
         <Posts posts={posts} />
       </div>

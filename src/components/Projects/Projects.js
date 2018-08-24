@@ -1,8 +1,13 @@
 import React from 'react';
 import projects from '../../data/ProjectsContent.js';
+import Helmet from 'react-helmet';
 
 const Projects = () => (
     <div className="Projects">
+        <Helmet
+            title="Projects"
+            meta={[{"name": "description", "content": "Check out some of the projects I've been working on."}]}
+        />
         <h1>Projects</h1>
         {projects.map(project => 
             <div className="project" key={project.name.toLowerCase()}>
