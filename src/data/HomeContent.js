@@ -12,7 +12,7 @@ export default [
             alt: 'Brown logo'
         },
         text: [
-            <p>I am currently a student at <a href="https://www.brown.edu/">Brown University</a>, where I intend to concentrate in computer science.</p>,
+            <p>I'm currently a student at <a href="https://www.brown.edu/">Brown University</a>, where I study computer science.</p>,
             <p>This past spring, I completed <a href="http://cs.brown.edu/courses/csci0320/">Intro to Software Engineering</a> and <a href="http://cs.brown.edu/courses/csci0220/">Intro to Discrete Structures and Probability</a>.</p>,
             <p>Last fall, I took the <a href="https://cs.brown.edu/courses/cs019/2017/index.html">Accelerated Introduction to Computer Science</a>.</p>,
         ]
@@ -24,7 +24,7 @@ export default [
             alt: 'Brown Political Review logo'
         },
         text: [
-            <p>I am also a Data Associate for the Brown Political Review’s Data Board, where I work on the <a href="http://firstdrafts.herokuapp.com/">web platform</a>, which houses our news articles, interactive infographics, and data-related news features.</p>,
+            <p>I'm also a Data Associate for the Brown Political Review’s Data Board, where I work on the <a href="http://firstdrafts.herokuapp.com/">web platform</a>, which houses our news articles, interactive infographics, and data-related news features.</p>,
         ]
     },
     {

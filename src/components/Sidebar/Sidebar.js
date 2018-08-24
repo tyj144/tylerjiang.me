@@ -16,7 +16,7 @@ const navItems = [
 
 const Sidebar = () => (
     <div className={styles.Sidebar}>
-        <img src={profilePic} className={styles.profilePic} alt="me" />
+        {/* <img src={profilePic} className={styles.profilePic} alt="me" /> */}
         <h1 className={styles.name}>Tyler Jiang</h1>
         <span className={styles.subtitle}>Student at Brown University</span>
         <div className={styles.contact}>

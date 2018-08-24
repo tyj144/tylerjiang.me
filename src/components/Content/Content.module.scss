@@ -1,14 +1,18 @@
 .ContentContainer {
     padding: 0.5rem 2.5rem;
     flex: 5;
-    background-color: #ffffff;
     color: black;
     justify-content: center;
     display: flex;
+
 }
 
 .Content {
     max-width: 45rem;
+    // background-color: #ffffff;
+    // border-radius: 15px;
+    // box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.4);
+    // padding: 1rem 3rem;
 }
 
 @media (max-width: 1050px) {

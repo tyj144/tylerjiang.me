@@ -1,18 +1,9 @@
-import elephluentDash from "../images/projects/elephluent/dashboard.png";
-import elephluentLessons from "../images/projects/elephluent/lessons.png";
-import elephluentPic from "../images/projects/elephluent/pic_learning.png";
-import elephluentMobile from "../images/projects/elephluent/pic_learning_mobile.png";
-import speakeasyHome from '../images/projects/speakeasy/home.png';
-import gca from '../images/projects/google-calendar-automator/cal-auto.png';
-import flightFinder from '../images/projects/flight-finder/home.png';
-import chatterbox from '../images/projects/chatterbox/chatterbox.png';
 
-export default [
-    {
+export default [    {
         "name": "Elephluent",
         "images": [
             {
-                "src": elephluentDash,
+                "src": require('../images/projects/elephluent/dashboard.png'),
                 "alt": "Elephluent dashboard"
             },
             // {
@@ -28,7 +19,7 @@ export default [
             //     "alt": "Elephluent responsive design"
             // },
         ],
-        "tools": [ "HTML", "Sass", "jQuery", "Java", "MongoDB"],
+        "tools": [ "HTML", "SASS", "jQuery", "Java", "MongoDB"],
         "description": [
             "Worked in a team of four to launch a web app that teaches children foreign languages through interactive lessons and games",
             "Integrated lesson and progress data from MongoDB into lessons using AJAX calls through jQuery",
@@ -42,13 +33,15 @@ export default [
     {
         "name": "tylerjiang.me",
         "images": [
-            {
-                "src": "",
-                "alt": ""
-            }
+            // {
+            //     "src": "",
+            //     "alt": ""
+            // }
         ],
-        "tools": [ "Gatsby.js (React and GraphQL)" ],
-        "description": [],
+        "tools": [ "Gatsby.js (React and GraphQL)", "SASS" ],
+        "description": [
+            "Built my personal website using Gatsby.js, the static site generator based on React and GraphQL."
+        ],
         "links": [
             { "name": "Link", "url": "/" }
         ]
@@ -57,7 +50,7 @@ export default [
         "name": "SpeakEasy",
         "images": [
             {
-                "src": speakeasyHome,
+                "src": require('../images/projects/speakeasy/home.png'),
                 "alt": "SpeakEasy home page"
             }
         ],
@@ -70,6 +63,58 @@ export default [
         "links": [
             { "name": "Frontend Demo", "url": "/speakeasy-frontend/" },
             { "name": "GitHub", "url": "https://github.com/tyj144/speakeasy" }
+        ]
+    },
+    {
+        "name": "Google Calendar Automator",
+        "images": [
+            {
+                "src": require('../images/projects/google-calendar-automator/cal-auto.png'),
+                "alt": "An example of a Google Calendar Automator event added."
+            }
+        ],
+        "tools": [ "Python" ],
+        "description": [
+            "MAHacks 2017 prize winner.",
+            "Created a prize-winning utility that finds calendar events on a web page and uploads them to Google Calendar."
+        ],
+        "links": [
+            { "name": "GitHub", "url": "https://github.com/tyj144/google-calendar-automator" }
+        ]
+    },
+    {
+        "name": "Chatterbox",
+        "images": [
+            {
+                "src": require('../images/projects/chatterbox/chatterbox.png'),
+                "alt": ""
+            }
+        ],
+        "tools": [ "Android SDK", "Java" ],
+        "description": [
+            "Created a chat application for Android in Java which allows users to and send and receive messages online.",
+            "Stored messages in a database and managed user authentication with Firebase."
+        ],
+        "links": [
+            { "name": "GitHub", "url": "https://github.com/tyj144/chatterbox" }
+        ]
+    },
+    {
+        "name": "Flight Finder",
+        "images": [
+            {
+                "src": require('../images/projects/flight-finder/home.png'),
+                "alt": "Flight Finder home page"
+            }
+        ],
+        "tools": [ "Django", "Python" ],
+        "description": [
+            "Takes the stress out of finding a vacation destination by finding a place and providing tickets there using a data set of 100,000+ JetBlue flights.",
+            "In this project, I designed the front end using HTML, CSS, and Bootstrap, built the back end in Django, and helped parse the dataset and implement the Wikipedia API."
+        ],
+        "links": [
+            { "name": "Link", "url": "http://findaflight.herokuapp.com/" },
+            { "name": "GitHub", "url": "https://github.com/tyj144/flight-finder" }
         ]
     },
     {
@@ -88,58 +133,6 @@ export default [
         "links": [
             { "name": "Link", "url": "http://cbcgn.herokuapp.com/" },
             { "name": "GitHub", "url": "https://github.com/tyj144/cbcgn-site" }
-        ]
-    },
-    {
-        "name": "Google Calendar Automator",
-        "images": [
-            {
-                "src": gca,
-                "alt": "An example of a Google Calendar Automator event added."
-            }
-        ],
-        "tools": [ "Python" ],
-        "description": [
-            "MAHacks 2017 prize winner.",
-            "Created a prize-winning utility that finds calendar events on a web page and uploads them to Google Calendar."
-        ],
-        "links": [
-            { "name": "GitHub", "url": "https://github.com/tyj144/google-calendar-automator" }
-        ]
-    },
-    {
-        "name": "Flight Finder",
-        "images": [
-            {
-                "src": flightFinder,
-                "alt": "Flight Finder home page"
-            }
-        ],
-        "tools": [ "Django", "Python" ],
-        "description": [
-            "Takes the stress out of finding a vacation destination by finding a place and providing tickets there using a data set of 100,000+ JetBlue flights.",
-            "In this project, I designed the front end using HTML, CSS, and Bootstrap, built the back end in Django, and helped parse the dataset and implement the Wikipedia API."
-        ],
-        "links": [
-            { "name": "Link", "url": "http://findaflight.herokuapp.com/" },
-            { "name": "GitHub", "url": "https://github.com/tyj144/flight-finder" }
-        ]
-    },
-    {
-        "name": "Chatterbox",
-        "images": [
-            {
-                "src": chatterbox,
-                "alt": ""
-            }
-        ],
-        "tools": [ "Android SDK", "Java" ],
-        "description": [
-            "Created a chat application for Android in Java which allows users to and send and receive messages online.",
-            "Stored messages in a database and managed user authentication with Firebase."
-        ],
-        "links": [
-            { "name": "GitHub", "url": "https://github.com/tyj144/chatterbox" }
         ]
     },
     {

@@ -1,10 +1,14 @@
 .Sidebar {
-	background-color: #F5F5F5;
+	// background-color: #F5F5F5;
 	text-align: center;
 	padding: 2rem;
 	// max-width: 40rem;
 	padding-top: 5rem;
 	flex: 2;
+
+	a {
+		color: #333;
+	}
 }
 
 .name {
@@ -19,7 +23,7 @@
 }
 
 .subtitle {
-	color: rgba(0, 0, 0, 0.6);
+	color: rgba(0, 0, 0, 0.7);
 	font-size: 12pt;
 }
 
@@ -30,12 +34,6 @@
 .contact a {
 	padding: 10px;
 	font-size: 30px;
-	color: #555;
-	// color: transparentize($color: white, $amount: 0.2);
-}
-
-.contact a:hover {
-	color: #333;
 }
 
 @media (max-width: 815px) {

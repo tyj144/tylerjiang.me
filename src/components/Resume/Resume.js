@@ -13,7 +13,7 @@ const Resume = () => (
         <h1>Resume</h1>
         {resume.sections.map(section => 
             <div key={section.name.replace(' ', '-').toLowerCase()} className={styles.section}>
-                <h2>{section.name}</h2>
+                <h2 className={styles.sectionName}>{section.name}</h2>
                 {section.items.map(item => (
                     <div className={styles.item}>
                         <div className={styles.itemTitleContainer}>

@@ -1,0 +1,22 @@
+// .Project {
+//     background-color: white;
+//     border: 1px solid #eee;
+//     border-radius: 15px;
+//     box-shadow: 5px 5px 15px rgba(0,0,0,.1);
+//     padding: 1rem 2rem;
+//     margin-bottom: 2rem;
+// }
+
+.Project {
+    padding: 1em 0;
+}
+
+.imageContainer {
+    text-align: center;
+
+    img {
+        max-height: 350px;
+        max-width: 100%;
+        border-radius: 15px;
+    }
+}
