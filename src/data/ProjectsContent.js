@@ -57,7 +57,7 @@ export default [    {
                 "alt": "First Drafts website screenshot"
             }
         ],
-        "tools": [ "HTML", "CSS", "Django", "Python", "PostgreSQL" ],
+        "tools": [ "HTML", "CSS", "Django", "Python", "PostgreSQL", "Bootstrap" ],
         "description": [
             "Led the effort to deploy a web platform for the Brown Political Review data board",
             "Built a Django web app for displaying and storing articles and interactive D3 infographics from scratch",

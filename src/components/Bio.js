@@ -12,6 +12,7 @@ class Bio extends React.Component {
       <div
         style={{
           display: 'flex',
+          padding: '1rem 0'
         }}
       >
         <img
@@ -25,9 +26,8 @@ class Bio extends React.Component {
             borderRadius: `50%`,
           }}
         />
-        <p>
-          Written by <strong>Tyler Jiang</strong> who is from New Hampshire and is currently studying at Brown University.{' '}
-          <a href="https://tylerjiang.me/">Find out more</a> about him.
+        <p style={{margin:0}}>
+          Written by <strong>Tyler Jiang</strong>, a sophomore at Brown University from New Hampshire.
         </p>
       </div>
     )

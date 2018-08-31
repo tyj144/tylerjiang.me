@@ -27,7 +27,7 @@ class BlogPostTemplate extends React.Component {
           style={{
           }}
         />
-        <Bio />
+        {/* <Bio /> */}
 
         <ul
           style={{
@@ -35,7 +35,7 @@ class BlogPostTemplate extends React.Component {
             flexWrap: 'wrap',
             justifyContent: 'space-between',
             listStyle: 'none',
-            padding: 0,
+            padding: '1rem',
           }}
         >
           <li>

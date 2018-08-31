@@ -35,15 +35,31 @@
                     "title": "Fidelity Investments",
                     "subtitle": "Software Engineering Intern",
                     "date": "May - Aug 2018",
-                    "bullets": []
+                    "bullets": [
+                        {
+                            "content": "Rebuilt the front-end of an internal tool actively used by ~4,000 representatives (~20,000 registered) to securely view a customer’s account without exposing sensitive data",
+                            "subBullets": [
+                                { "content": "Upgraded the application from Java Server Pages to Angular 6, SASS, and TypeScript" },
+                                { "content": "Created a separate tool with Vue.js which checks and displays authorization permissions for a representative" }
+                            ]                        
+                        },
+                        {
+                            "content": "Improved team productivity by automating information retrieval about the team’s fine-grained authorization database",
+                            "subBullets": [
+                                { "content": "Sped up an existing Selenium task used to check if applications are down by ~120x by moving it to a Spring Boot service and implementing threads" },
+                                { "content": "Took the initiative to write a script that converts the team’s central dashboard of URLs to a JSON, which enabled the team to automate data retrieval" }
+                            ]                        
+                        }
+                    ]
                 },
                 { 
                     "title": "Brown Political Review",
                     "subtitle": "Data Associate",
                     "date": "Jan 2018 - Present",
                     "bullets": [
-                        { "content": "Built a Django web app for displaying and storing articles and interactive D3 infographics from scratch" },
-                        { "content": "Implemented a database using PostgreSQL to manage articles, deployed on Heroku" }
+                        { "content": "Built a Django web app to display student-written articles and interactive D3 infographics" },
+                        { "content": "Managed articles with a PostgreSQL database and deployed onto Heroku" },
+                        { "content": "~2,000 visitors since release in Spring 2018" }
                     ]
                 },
                 { 
@@ -74,6 +90,13 @@
                     ]
                 },
                 { 
+                    "title": "NH SMASH Math League, 2nd Place (Juniors)",
+                    "date": "May 2016",
+                    "bullets": [
+                        { "content": "Earned a trophy for second highest scoring junior in the state, fourth highest scorer as a senior" }
+                    ]
+                },
+                { 
                     "title": "National Merit Finalist",
                     "date": "Mar 2017",
                     "bullets": []
@@ -83,6 +106,20 @@
                     "date": "July 2017",
                     "bullets": [
                         { "content": "Earned after scoring 5 out of 5 on 10 AP exams." }
+                    ]
+                },
+                { 
+                    "title": "Mathsis Mathematics Achievement Award",
+                    "date": "June 2017",
+                    "bullets": [
+                        { "content": "Received a scholarship for the highest achievement of mathematics within the graduating class" }
+                    ]
+                },
+                { 
+                    "title": "Recipient of the Charles E. Austin Memorial Scholarship and Ralph J. and Alice F. Burns Scholarship",
+                    "date": "June 2017",
+                    "bullets": [
+                        { "content": "Received two scholarships for high academic achievement through a four year high school career" }
                     ]
                 }
             ]
@@ -95,7 +132,7 @@
                     "subtitle": "3 years",
                     "date": "Sept 2015 - Nov 2017",
                     "bullets": [
-                        { "content": "Awarded Defensive Player of the Year (12), All-Area Team (12), center back on top 10 defense in NH (goals allowed)" }
+                        { "content": "Awarded All-Area Team (12), Nashua North Defensive Player of the Year (12), center back on top 10 defense in NH (goals allowed)" }
                     ]
                 },
                 { 
@@ -103,7 +140,7 @@
                     "subtitle": "4 years",
                     "date": "March 2014 - June 2017",
                     "bullets": [
-                        { "content": "10th place, 55m hurdles at 2017 Division I Indoor Track & Field Championship" }
+                        { "content": "10th place, 55m hurdles at 2017 NHIAA State Division I Indoor Track & Field Championship" }
                     ]
                 }
             ]

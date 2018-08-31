@@ -3,9 +3,7 @@ title: Podcasts I Listen To
 date: "2018-08-24T16:20:00.284Z"
 ---
 
-I don't think I could live without listening to podcasts. It's a great way to listen to people share their thoughts, especially if you'd like to sit back and be productive with your down time. I like to use podcasts as a source of news (a la This American Life, NPR) and education (history, software development, etc.), although to be honest, I mostly use it for basketball.
-
-Here are some of my favorite podcasts:
+Podcasts are a great way for me to kill time and entertain myself, so I thought I'd share some of my personal favorites:
 
 # News / Journalism
 ## [This American Life](https://www.thisamericanlife.org/)
@@ -48,7 +46,7 @@ A great podcast about web development by Scott Tolinski and Wes Bos. They pack a
 
 **My Picks**
 * [Advice For Beginners](https://syntax.fm/show/058/advice-for-beginners-tech-skills-applying-for-jobs-focus-imposter-syndrome-more) - advice on starting out as a web developer
-* [How to Learn New Things Quickly](https://syntax.fm/show/044/how-to-learn-new-things-quickly) - the best way to learn is to DO
+* [How to Learn New Things Quickly](https://syntax.fm/show/044/how-to-learn-new-things-quickly) - the best way to learn is to do
 * [Marketing for Developers](https://syntax.fm/show/052/marketing-for-developers) - understanding your own brand and building a genuine relationship with an audience 
 
 # History
@@ -64,7 +62,6 @@ Dan Carlin is basically a history buff on steroids. He generally releases podcas
 "The Asia-Pacific War of 1937-1945 has deep roots. It also involves a Japanese society that's been called one of the most distinctive on Earth. If there were a Japanese version of Captain America, this would be his origin story."
 
 # NBA
-This is easily where I spend the most time listening to podcasts. I'm a basketball junkie.
 
 ## [Open Floor: SI's NBA Show](https://itunes.apple.com/us/podcast/open-floor-sis-nba-show/id1050847009?mt=2)
 Andrew Sharp and Ben Golliver

@@ -10,6 +10,7 @@ const Projects = () => (
             title="Projects"
             meta={[{"name": "description", "content": "Check out some of the projects I've been working on."}]}
         />
+        <p style={{margin: 0, fontStyle: 'italic'}}>Unless noted otherwise, all projects were built and designed from scratch.</p>
         {projects.map(project => 
             <Fragment>
                 <Project project={project} />

@@ -1,6 +1,16 @@
 .Home {
 	padding: 3em 4em;
 	flex: 5;
+
+	p {
+		margin: 0;
+		margin-bottom: 20px;
+	}
+
+	img {
+		width: 115px;
+		vertical-align: middle;
+	}
 }
 
 .section {
@@ -13,11 +23,6 @@
 
 .section:not(:last-child) {
 	margin-bottom: 40px;
-}
-
-.Home img {
-	width: 115px;
-	vertical-align: middle;
 }
 
 .textContainer {

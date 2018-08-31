@@ -24,7 +24,7 @@ export default [
             alt: 'Brown Political Review logo'
         },
         text: [
-            <p>I'm also a Data Associate for the Brown Political Review’s Data Board. There, I work on the <a href="http://firstdrafts.herokuapp.com/">web platform</a>, which houses our news articles, interactive infographics, and data-related news features.</p>,
+            <p>I'm also a Data Associate for the Brown Political Review’s Data Board.</p>,<p>There, I work on the <a href="http://firstdrafts.herokuapp.com/">web platform</a>, which houses our news articles, interactive infographics, and data-related news features.</p>,
         ]
     },
     {
@@ -35,6 +35,7 @@ export default [
         },
         text: [
             <p>This summer, I was a Software Engineering Intern at <a href="https://www.fidelity.com/">Fidelity Investments</a>.</p>,
+            <p>While I was there, I boosted productivity by building useful, internal web applications for the <a href="https://workplace.fidelity.com/">Workplace Solutions</a> Security Services team.</p>
         ],
     },
     {
