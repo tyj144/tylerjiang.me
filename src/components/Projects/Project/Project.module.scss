@@ -21,3 +21,27 @@
         border-radius: 10px;
     }
 }
+
+.heading {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+}
+
+.title {
+    margin: 0;
+}
+
+.subtitle {
+    margin-left: 1rem;
+    color: #555;
+}
+
+@media (max-width: 590px) {
+    .heading {
+        flex-direction: column;
+    }
+    .subtitle {
+        margin: 0.5rem 0;
+    }
+}

@@ -4,10 +4,10 @@ import styles from './Project.module.scss';
 const Project = (props) => {
     const project = props.project;
     return (
-        <div className={[styles.Project].join(' ')} key={project.name.toLowerCase()}>
-            <div style={{display: 'flex', flexDirection: 'row', alignItems: 'baseline' }}>
-                <h2 style={{margin: 0}}>{project.name}</h2>
-                <p style={{marginLeft: '1rem', color: '#555' }}>{project.tools.join(', ')}</p>
+        <div className={styles.Project} key={project.name.toLowerCase()}>
+            <div className={styles.heading}>
+                <h2 className={styles.title}>{project.name}</h2>
+                <p className={styles.subtitle}>{project.tools.join(', ')}</p>
             </div>
             { project.images ?
                 project.images.map(image =>
