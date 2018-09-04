@@ -1,5 +1,7 @@
 import React from 'react';
 import styles from './Project.module.scss';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faCheckCircle } from '@fortawesome/free-solid-svg-icons';
 
 const Project = (props) => {
     const project = props.project;
@@ -17,9 +19,25 @@ const Project = (props) => {
                 )
                 : ''
             }
-            {project.description.map(text => 
-                <p>{text}</p>
-            )}
+            { project.awards ?
+                <p><b>{project.awards.join(', ')}</b></p>
+                : ""
+            }
+            {/* <ul> */}
+                {project.description.map(text => 
+                    <div style={{
+                        display: 'inline-flex',
+                        'align-items': 'center'
+                    }}>
+                        <FontAwesomeIcon icon={faCheckCircle} style={{color: '#5faf63', height: '24px', width: '24px'}}></FontAwesomeIcon>
+                        <p style={{marginLeft: '1rem'}}>{text}</p>
+                    </div>
+                )}
+            {/* </ul> */}
+            {project.partners.length ? 
+                <p><b>Partners</b>: {project.partners.join(', ')}</p>
+                : ''
+            }
             {project.links.map(link =>
                 <div>
                     <a href={link.url}>{link.name}</a>

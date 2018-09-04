@@ -35,11 +35,12 @@
                     "title": "Fidelity Investments",
                     "subtitle": "Software Engineering Intern",
                     "date": "May - Aug 2018",
+                    "toolsUsed": [ "Angular 6", "TypeScript", "SASS", "RxJS", "Java", "Spring Boot", "Vue.js", "Jira" ],
                     "bullets": [
                         {
                             "content": "Rebuilt the front-end of an internal tool actively used by ~4,000 representatives (~20,000 registered) to securely view a customer’s account without exposing sensitive data",
                             "subBullets": [
-                                { "content": "Upgraded the application from Java Server Pages to Angular 6, SASS, and TypeScript" },
+                                { "content": "Used Angular 6 to manage app components and services, verified user identities and permissions with a RESTful API" },
                                 { "content": "Created a separate tool with Vue.js which checks and displays authorization permissions for a representative" }
                             ]                        
                         },
@@ -56,9 +57,10 @@
                     "title": "Brown Political Review",
                     "subtitle": "Data Associate",
                     "date": "Jan 2018 - Present",
+                    "toolsUsed": [ "Django", "Python", "PostgreSQL", "Heroku", "HTML", "CSS", "JavaScript", "Bootstrap" ],
                     "bullets": [
-                        { "content": "Built a Django web app to display student-written articles and interactive D3 infographics" },
-                        { "content": "Managed articles with a PostgreSQL database and deployed onto Heroku" },
+                        { "content": "Built a web app to display student-written articles and interactive D3 data visualizations" },
+                        { "content": "Managed articles with a PostgreSQL database and deployed with Heroku" },
                         { "content": "~2,000 visitors since release in Spring 2018" }
                     ]
                 },

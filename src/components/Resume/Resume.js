@@ -38,6 +38,9 @@ const Resume = () => (
                                             : ''}
                                     </Fragment>
                                 ))}
+                                {item.toolsUsed ? 
+                                    <li><b>Tools Used</b>: {item.toolsUsed.join(', ')}</li>
+                                    : ''}
                             </ul>
                         </div>
                     </div>

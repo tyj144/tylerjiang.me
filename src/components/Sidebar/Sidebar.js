@@ -5,7 +5,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faLinkedinIn } from '@fortawesome/free-brands-svg-icons';
 import { faEnvelope, faFileAlt } from '@fortawesome/free-solid-svg-icons';
 import Nav from './Nav/Nav';
-import resume from '../../documents/Resume-PUB.pdf';
+import resume from '../../documents/Resume.pdf';
 
 const navItems = [
     { text: 'Home', link: '/' },

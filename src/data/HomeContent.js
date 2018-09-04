@@ -35,7 +35,7 @@ export default [
         },
         text: [
             <p>This summer, I was a Software Engineering Intern at <a href="https://www.fidelity.com/">Fidelity Investments</a>.</p>,
-            <p>While I was there, I boosted productivity by building useful, internal web applications for the <a href="https://workplace.fidelity.com/">Workplace Solutions</a> Security Services team.</p>
+            <p>While I was there, I built a number of useful, internal web applications for the <a href="https://workplace.fidelity.com/">Workplace Solutions</a> Security Services team.</p>
         ],
     },
     {

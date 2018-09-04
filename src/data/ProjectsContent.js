@@ -5,7 +5,7 @@ export default [    {
         "images": [
             {
                 "src": require('../images/projects/elephluent/dashboard.png'),
-                "alt": "Elephluent dashboard"
+                "alt": "Elephluent dashboard with module tiles"
             },
             // {
             //     "src": elephluentLessons,
@@ -22,9 +22,9 @@ export default [    {
         ],
         "tools": [ "HTML", "SASS", "jQuery", "Java", "MongoDB"],
         "description": [
-            "Worked in a team of four to launch a web app that teaches children foreign languages through interactive lessons and games",
-            "Integrated lesson and progress data from MongoDB into lessons using AJAX calls through jQuery",
-            "Designed a child-friendly user interface focused on sight, sound, and touch using SASS, CSS Flexbox and Transitions, and the Web Speech API"
+            "Worked in a team of four to launch a web app that teaches children foreign languages with interactive lessons and games",
+            "Integrated lesson and user progress data from a MongoDB-backed RESTful service with the front-end",
+            "Implemented a system where kids can listen to and practice speaking common phrases with the Web Speech API"
         ],
         "links": [
             { "name": "Frontend Demo", "url": "https://elephluent.github.io" },
@@ -40,11 +40,11 @@ export default [    {
                 "alt": "Maps screenshot"
             }
         ],
-        "tools": [ "HTML", "CSS", "jQuery", "Java" ],
+        "tools": [ "HTML", "CSS", "jQuery", "Java", "SQLite" ],
         "description": [
             "Worked in a team of two to implement an interactive Google Maps clone with pan and zoom using HTML Canvas, jQuery, and Java",
             "Implemented the A* algorithm to optimize finding the shortest path between two locations",
-            "Implemented a KD-tree to increase efficiency when searching for locations nearby a given coordinate",
+            "Implemented a k-d tree to efficiently search for locations near a given coordinate",
         ],
         "links": []
     },
@@ -98,7 +98,7 @@ export default [    {
         ],
         "tools": [ "Gatsby.js (React and GraphQL)", "SASS", "Netlify" ],
         "description": [
-            "Built my personal website using Gatsby.js, the static site generator based on React and GraphQL. Deployed with Netlify."
+            "Built my personal website using Gatsby.js, the static site generator based on React and GraphQL, deployed with Netlify"
         ],
         "links": [
             { "name": "Link", "url": "/" }
@@ -134,9 +134,9 @@ export default [    {
         ],
         "tools": [ "Flask", "Python", "HTML", "CSS", "JavaScript"],
         "description": [
-            "Built a web app that helps people improve their communication skills by recording them, analyzing their emotions, and suggesting ways to improve their word choice.",
-            "Integrated the Google Cloud Speech API and Microsoft’s Cognitive Services API into the web app with Flask and Python.",
-            "Implemented video recording with JavaScript and designed the frontend using HTML, CSS, and Bootstrap."
+            "Built a web app that helps people improve their communication skills by recording them, analyzing their emotions, and suggesting ways to improve their word choice",
+            "Integrated the Google Cloud Speech API and Microsoft’s Cognitive Services API into the web app with Flask and Python",
+            "Implemented video recording with JavaScript and designed the frontend using HTML, CSS, and Bootstrap"
         ],
         "links": [
             { "name": "Frontend Demo", "url": "https://tyj144.github.io/speakeasy-frontend/" },
@@ -153,9 +153,9 @@ export default [    {
             }
         ],
         "tools": [ "Python" ],
+        "awards": [ "MAHacks 2017 Prize Winner" ],
         "description": [
-            "MAHacks 2017 prize winner.",
-            "Created a prize-winning utility that finds calendar events on a web page and uploads them to Google Calendar."
+            "Created a prize-winning utility that finds calendar events on a web page and uploads them to Google Calendar"
         ],
         "links": [
             { "name": "GitHub", "url": "https://github.com/tyj144/google-calendar-automator" }
@@ -172,8 +172,8 @@ export default [    {
         ],
         "tools": [ "Android SDK", "Java", "Firebase" ],
         "description": [
-            "Created a chat application for Android in Java which allows users to and send and receive messages online.",
-            "Stored messages in a database and managed user authentication with Firebase."
+            "Created a chat application for Android in Java which allows users to and send and receive messages online",
+            "Stored messages in a database and managed user authentication with Firebase"
         ],
         "links": [
             { "name": "GitHub", "url": "https://github.com/tyj144/chatterbox" }
@@ -188,10 +188,10 @@ export default [    {
                 "alt": "Flight Finder home page"
             }
         ],
-        "tools": [ "Django", "Python" ],
+        "tools": [ "Django", "Python", "HTML", "CSS" ],
         "description": [
-            "Takes the stress out of finding a vacation destination by finding a place and providing tickets there using a data set of 100,000+ JetBlue flights.",
-            "In this project, I designed the front end using HTML, CSS, and Bootstrap, built the back end in Django, and helped parse the dataset and implement the Wikipedia API."
+            "Takes the stress out of finding a vacation destination by finding a place and providing tickets there using a data set of 100,000+ JetBlue flights",
+            "Designed the front end using HTML, CSS, and Bootstrap, built the back end in Django, and helped parse the dataset and implement the Wikipedia API"
         ],
         "links": [
             { "name": "Link", "url": "http://findaflight.herokuapp.com/" },
