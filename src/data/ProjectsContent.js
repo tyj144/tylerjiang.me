@@ -61,12 +61,12 @@ export default [    {
         "description": [
             "Led the effort to deploy a web platform for the Brown Political Review data board",
             "Built a Django web app for displaying and storing articles and interactive D3 infographics from scratch",
-            "Implemented a database using PostgreSQL to manage articles, deployed on Heroku"
+            "Implemented a database using PostgreSQL to manage articles, deployed with AWS (Elastic Beanstalk, Route 53)"
             
             
         ],
         "links": [
-            { "name": "Link", "url": "http://firstdrafts.herokuapp.com/" }
+            { "name": "Link", "url": "http://data.brownpoliticalreview.org/" }
         ]
     },
     {

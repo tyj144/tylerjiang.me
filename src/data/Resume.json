@@ -38,17 +38,16 @@
                     "toolsUsed": [ "Angular 6", "TypeScript", "SASS", "RxJS", "Java", "Spring Boot", "Vue.js", "Jira" ],
                     "bullets": [
                         {
-                            "content": "Rebuilt the front-end of an internal tool actively used by ~4,000 representatives (~20,000 registered) to securely view a customer’s account without exposing sensitive data",
+                            "content": "Rebuilt the front-end of an internal tool used by ~4,000representatives (~20,000 registered)",
                             "subBullets": [
-                                { "content": "Used Angular 6 to manage app components and services, verified user identities and permissions with a RESTful API" },
-                                { "content": "Created a separate tool with Vue.js which checks and displays authorization permissions for a representative" }
+                                { "content": "Created a separate tool with Vue.js to check and display a representative's authorization" }
                             ]                        
                         },
                         {
-                            "content": "Improved team productivity by automating information retrieval about the team’s fine-grained authorization database",
+                            "content": "Worked on a full stack data retrieval web app for the team's fine-grained authorization database",
                             "subBullets": [
                                 { "content": "Sped up an existing Selenium task used to check if applications are down by ~120x by moving it to a Spring Boot service and implementing threads" },
-                                { "content": "Took the initiative to write a script that converts the team’s central dashboard of URLs to a JSON, which enabled the team to automate data retrieval" }
+                                { "content": "Converted the team’s central dashboard of URLs to a JSON, enabling the team to automate data retrieval" }
                             ]                        
                         }
                     ]
@@ -57,19 +56,11 @@
                     "title": "Brown Political Review",
                     "subtitle": "Data Associate",
                     "date": "Jan 2018 - Present",
-                    "toolsUsed": [ "Django", "Python", "PostgreSQL", "Heroku", "HTML", "CSS", "JavaScript", "Bootstrap" ],
+                    "toolsUsed": [ "Django", "Python", "PostgreSQL", "AWS", "HTML", "CSS", "D3.js" ],
                     "bullets": [
-                        { "content": "Built a web app to display student-written articles and interactive D3 data visualizations" },
-                        { "content": "Managed articles with a PostgreSQL database and deployed with Heroku" },
+                        { "content": "Built a web app to display student-written articles and interactive data visualizations" },
+                        { "content": "Managed articles with a PostgreSQL database and deployed with AWS (Elastic Beanstalk)" },
                         { "content": "~2,000 visitors since release in Spring 2018" }
-                    ]
-                },
-                { 
-                    "title": "Brown Computing and Information Services",
-                    "subtitle": "Student Technician",
-                    "date": "Jan 2018 - Present",
-                    "bullets": [
-                        { "content": "Managed AV equipment for student events of up to 100 people, repaired projectors, troubleshot presentation software" }
                     ]
                 }
             ]
@@ -122,6 +113,28 @@
                     "date": "June 2017",
                     "bullets": [
                         { "content": "Received two scholarships for high academic achievement through a four year high school career" }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Leadership Experience",
+            "items": [
+                { 
+                    "title": "Brown igniteCS",
+                    "subtitle": "Mentor",
+                    "date": "Sept 2017 - December 2017",
+                    "bullets": [
+                        { "content": "Designed curriculum and taught computer science at Dr. Earl F. Calcutt Middle School" }
+                    ]
+                },
+                { 
+                    "title": "Mu Alpha Theta",
+                    "subtitle": "President",
+                    "date": "June 2016 - June 2017",
+                    "bullets": [
+                        { "content": "Led ~50 members of the Nashua North chapter of Mu Alpha Theta, the national math honor society" },
+                        { "content": "Organized the school’s tutoring center and connected students who needed extra math help with members" }
                     ]
                 }
             ]
