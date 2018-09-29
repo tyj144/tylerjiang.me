@@ -13,7 +13,7 @@
                             "content": "B.Sc. in Computer Science",
                             "subBullets": [
                                 { "content": "GPA: 4.0 / 4.0" },
-                                { "content": "Relevant Courses: Intro to Software Engineering, Intro to Discrete Structures and Probability, Accelerated Intro to CS, Multivariable Calculus" }
+                                { "content": "Relevant Courses: Intro to Computer Systems, Intro to Software Engineering, Intro to Discrete Structures and Probability, Accelerated Intro to CS, Linear Algebra, Honors Statistical Inference I, Honors Multivariable Calculus" }
                                 
                             ]
                         }
@@ -21,7 +21,7 @@
                 },
                 {
                     "title": "Nashua High School North",
-                    "date": "June 2017",
+                    "date": "Sept 2013 - Jun 2017",
                     "bullets": [
                         { "content": "Graduated salutatorian (2 out of ~450 people) in the class of 2017" }
                     ]
@@ -35,10 +35,10 @@
                     "title": "Fidelity Investments",
                     "subtitle": "Software Engineering Intern",
                     "date": "May - Aug 2018",
-                    "toolsUsed": [ "Angular 6", "TypeScript", "SASS", "RxJS", "Java", "Spring Boot", "Vue.js", "Jira" ],
+                    "toolsUsed": [ "Angular", "TypeScript", "SASS", "Java", "Spring Boot", "Vue.js" ],
                     "bullets": [
                         {
-                            "content": "Rebuilt the front-end of an internal tool used by ~4,000representatives (~20,000 registered)",
+                            "content": "Rebuilt the front-end of an internal tool used by ~4,000 representatives (~20,000 registered)",
                             "subBullets": [
                                 { "content": "Created a separate tool with Vue.js to check and display a representative's authorization" }
                             ]                        
@@ -54,12 +54,12 @@
                 },
                 { 
                     "title": "Brown Political Review",
-                    "subtitle": "Data Associate",
+                    "subtitle": "Lead Platform Developer",
                     "date": "Jan 2018 - Present",
                     "toolsUsed": [ "Django", "Python", "PostgreSQL", "AWS", "HTML", "CSS", "D3.js" ],
                     "bullets": [
-                        { "content": "Built a web app to display student-written articles and interactive data visualizations" },
-                        { "content": "Managed articles with a PostgreSQL database and deployed with AWS (Elastic Beanstalk)" },
+                        { "content": "Led a team of three to build & deploy a web platform for student-written articles and interactive data visualizations" },
+                        { "content": "Created an article management system w/ Django & PostgreSQL, designed the UI, and deployed w/ AWS" },
                         { "content": "~2,000 visitors since release in Spring 2018" }
                     ]
                 }
@@ -103,14 +103,14 @@
                 },
                 { 
                     "title": "Mathsis Mathematics Achievement Award",
-                    "date": "June 2017",
+                    "date": "Jun 2017",
                     "bullets": [
                         { "content": "Received a scholarship for the highest achievement of mathematics within the graduating class" }
                     ]
                 },
                 { 
                     "title": "Recipient of the Charles E. Austin Memorial Scholarship and Ralph J. and Alice F. Burns Scholarship",
-                    "date": "June 2017",
+                    "date": "Jun 2017",
                     "bullets": [
                         { "content": "Received two scholarships for high academic achievement through a four year high school career" }
                     ]
@@ -123,7 +123,7 @@
                 { 
                     "title": "Brown igniteCS",
                     "subtitle": "Mentor",
-                    "date": "Sept 2017 - December 2017",
+                    "date": "Sept - Dec 2017",
                     "bullets": [
                         { "content": "Designed curriculum and taught computer science at Dr. Earl F. Calcutt Middle School" }
                     ]
@@ -131,7 +131,7 @@
                 { 
                     "title": "Mu Alpha Theta",
                     "subtitle": "President",
-                    "date": "June 2016 - June 2017",
+                    "date": "Jun 2016 - Jun 2017",
                     "bullets": [
                         { "content": "Led ~50 members of the Nashua North chapter of Mu Alpha Theta, the national math honor society" },
                         { "content": "Organized the school’s tutoring center and connected students who needed extra math help with members" }
@@ -153,7 +153,7 @@
                 { 
                     "title": "Boys Varsity Track and Field",
                     "subtitle": "4 years",
-                    "date": "March 2014 - June 2017",
+                    "date": "Mar 2014 - Jun 2017",
                     "bullets": [
                         { "content": "10th place, 55m hurdles at 2017 NHIAA State Division I Indoor Track & Field Championship" }
                     ]

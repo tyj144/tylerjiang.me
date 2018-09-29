@@ -1,6 +1,7 @@
 import React, { Fragment } from 'react';
 import resume from '../../data/Resume.json';
 import styles from './Resume.module.scss';
+import resumePdf from '../../documents/Resume.pdf';
 
 import Helmet from 'react-helmet';
 
@@ -10,7 +11,10 @@ const Resume = () => (
             title="Resume"
             meta={[{"name": "description", "content": "Take a look at my resume."}]}
         />
-        <h1>Resume</h1>
+        <div style={{display: 'flex', alignItems: 'baseline'}}>
+            <h1 style={{marginBottom: 0, marginRight: '15px'}}>Resume</h1>
+            <a href={resumePdf}>PDF</a>
+        </div>
         {resume.sections.map(section => 
             <div key={section.name.replace(' ', '-').toLowerCase()} className={styles.section}>
                 <h2 className={styles.sectionName}>{section.name}</h2>
