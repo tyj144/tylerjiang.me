@@ -14,7 +14,7 @@ export default [
         text: [
             <p>I'm currently a student at <a href="https://www.brown.edu/">Brown University</a>, where I study computer science.</p>,
             <p>This semester, I'm taking <a href="http://cs.brown.edu/courses/cs033/">Intro to Computer Systems</a>, <a href="http://www.dam.brown.edu/people/cklivans/apma1655.html">Statistical Inference I</a>, and Linear Algebra.</p>,
-            <p>Last year, I completed <a href="http://cs.brown.edu/courses/csci0320/">Intro to Software Engineering</a> and <a href="http://cs.brown.edu/courses/csci0220/">Intro to Discrete Structures and Probability</a>, and the <a href="https://cs.brown.edu/courses/cs019/2017/index.html">Accelerated Intro to CS</a>.</p>,
+            <p>Last year, I completed <a href="http://cs.brown.edu/courses/csci0320/">Intro to Software Engineering</a>, <a href="http://cs.brown.edu/courses/csci0220/">Intro to Discrete Structures and Probability</a>, and the <a href="https://cs.brown.edu/courses/cs019/2017/index.html">Accelerated Intro to CS</a>.</p>,
         ]
     },
     {
@@ -25,10 +25,10 @@ export default [
         },
         text: [
             <p>
-                I'm also a Data Associate for the Brown Political Review’s Data Board.
+                I'm also the Lead Platform Developer for the Brown Political Review’s Data Board.
             </p>,
             <p>
-                There, I work on the <a href="http://data.brownpoliticalreview.org/">web platform</a>, which houses our 
+                There, I led the effort to design, build, and launch our <a href="http://data.brownpoliticalreview.org/">web platform</a>, which houses our 
                 articles, interactive infographics, and data-related news features.
             </p>,
         ]
