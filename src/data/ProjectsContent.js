@@ -188,7 +188,7 @@ export default [    {
                 "alt": "Flight Finder home page"
             }
         ],
-        "tools": [ "Django", "Python", "HTML", "CSS", "Heroku" ],
+        "tools": [ "Django", "Python", "HTML", "CSS" ],
         "description": [
             "Takes the stress out of finding a vacation destination by finding a place and providing tickets there using a data set of 100,000+ JetBlue flights",
             "Designed the front end using HTML, CSS, and Bootstrap, built the back end in Django, and helped parse the dataset and implement the Wikipedia API"
