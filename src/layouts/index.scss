@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Muli');
 
+$link: #fecea8;
+
 html {
 	height: 100%;
 }
@@ -10,6 +12,28 @@ body {
 	font-family: "Avenir", "Muli", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 	// background-color: #1b3c59;
 	// color: white;
+}
+
+body {
+	background-color: #2a363b;
+}
+
+h1 {
+	color: white;
+}
+
+* {
+	color: rgba(255, 255, 255, 0.9);
+}
+
+a {
+	color: $link;
+	// remove underline
+	text-decoration: none;
+}
+
+a:hover {
+	color: darken($link, 10);
 }
 
 main {
@@ -31,14 +55,4 @@ main {
 .scaleUp:hover {
 	transform: scale(1.01);
 	transition: transform 0.4s;
-}
-
-a {
-	text-decoration: none;
-	color: #dc0505;
-	// color: transparentize($color: white, $amount: 0.2);
-}
-
-a:hover {
-	color: #c73333;
 }

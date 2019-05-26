@@ -15,8 +15,7 @@ class Template extends React.Component {
     }
     return (
       <main>
-        {/* {header} */}
-        <Sidebar></Sidebar>
+        {/* <Sidebar></Sidebar> */}
         <Content>{children()}</Content>
       </main>
     )
