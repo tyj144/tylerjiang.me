@@ -1,8 +1,14 @@
 import React from 'react'
 import styles from './Home.module.scss'
-import Link from 'gatsby-link';
-import resumePdf from '../../documents/Resume.pdf';
+import Link from 'gatsby-link'
+import resumePdf from '../../documents/Resume.pdf'
 import Helmet from 'react-helmet'
+
+const gradientTitle = {
+  background: 'linear-gradient(rgb(230, 100, 101), rgb(251, 103, 240))',
+  WebkitBackgroundClip: 'text',
+  WebkitTextFillColor: 'transparent',
+}
 
 const Home = () => (
   <div className={styles.Home}>
@@ -12,37 +18,74 @@ const Home = () => (
         {
           name: 'description',
           content:
-            "Hi, I'm Tyler Jiang, a sophomore at Brown University studying computer science.",
+            "Hi, I'm Tyler Jiang, a junior at Brown University studying computer science.",
         },
       ]}
     />
-    <header>
-      <h1>Hi, I'm <span style={{color: "rgb(243, 84, 105)"}}>Tyler</span>.</h1>
+    <header
+      style={{
+        display: 'flex',
+        alignItems: 'baseline',
+        justifyContent: 'space-between',
+      }}
+    >
+      <h1>
+        Hi, I'm <span style={gradientTitle}>Tyler</span>.
+      </h1>
+      <div className={styles.navbar}>
+        <Link to={'/projects'}>projects</Link>
+        <Link to={resumePdf}>resume</Link>
+      </div>
     </header>
-    <p>
-      I'm a rising junior at{' '}
-      <a href="https://www.brown.edu/">Brown University</a> studying computer
-      science. Feel free to look at my <Link to={"/projects"}>projects</Link> and <Link to={resumePdf}>resume</Link>.
-    </p>
-    <p>
-      This summer, I am returning to{' '}
-      <a href="https://www.fidelity.com/">Fidelity Investments</a> as a Software
-      Engineering Intern.
-    </p>
-    <p>
-      I was previously a Software Engineering Intern for Fidelity's{' '}
-      <a href="https://workplace.fidelity.com/">Workplace Services</a> division,
-      where I built internal web applications for 20,000+ users.
-    </p>
-    <p>
-      Last semester, I was an Undergraduate Teaching Assistant for{' '}
-      <a href="http://cs.brown.edu/courses/cs0320/">
-        Intro to Software Engineering
-      </a>.
-    </p>
-    <p>
+    <div>
+      <p>
+        I'm a junior at <a href="https://www.brown.edu/">Brown University</a>{' '}
+        studying computer science.
+      </p>
+      <p>
+        This summer, I was a Software/Site Reliability Engineering Intern at{' '}
+        <a href="https://www.fidelity.com/">Fidelity Investments</a>.
+      </p>
+      <p>
+        I was previously a Software Engineering Intern for Fidelity's{' '}
+        <a href="https://workplace.fidelity.com/">Workplace Services</a>{' '}
+        division, where I rebuilt an internal web application for 20,000+ users.
+      </p>
+      <p>
+        I'm also a Course Content Developer for the{' '}
+        <a href="https://www.brown.edu/initiatives/data-science/home">
+          Brown Data Science Initiative
+        </a>, where I work with Professor{' '}
+        <a href="http://www.math.brown.edu/~sswatson/index.html">
+          Samuel Watson
+        </a>{' '}
+        on <a href="https://mathigon.org/data-gymnasia">Data Gymnasia</a> and
+        animated data science{' '}
+        <a href="https://www.youtube.com/watch?v=4RrQj5c8G44">videos</a>.
+      </p>
+      <div>
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/4RrQj5c8G44"
+          frameborder="0"
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+          style={{ display: 'block', margin: '0 auto' }}
+        />
+      </div>
+      <p>
+        Last semester, I was an Undergraduate Teaching Assistant for{' '}
+        <a href="http://cs.brown.edu/courses/cs0320/">
+          Intro to Software Engineering
+        </a>.
+      </p>
+    </div>
+    <div>
       <h3>Coursework</h3>
       <ul style={{ margin: 0 }}>
+        <li>Deep Learning</li>
+        <li>Learning and Sequential Decision Making</li>
         <li>
           <a href="http://cs.brown.edu/courses/cs1420/">Machine Learning</a>
         </li>
@@ -70,8 +113,11 @@ const Home = () => (
           </a>
         </li>
       </ul>
+    </div>
+    <p>
+      In my free time, I love to follow the NBA, play basketball and soccer, and
+      watch TV.
     </p>
-    <p>In my free time, I love to follow the NBA, play basketball and soccer, and watch TV.</p>
     {/* {sections.map(section => (
       <div key={section.id} className={styles.section}>
         <div className={styles.imageContainer}>

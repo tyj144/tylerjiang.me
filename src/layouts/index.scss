@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Muli');
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans:400,700&display=swap');
 
 $link: #fecea8;
 
@@ -9,13 +9,15 @@ html {
 body {
 	min-height: 100%;
 	margin: 0;
-	font-family: "Avenir", "Muli", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-	// background-color: #1b3c59;
-	// color: white;
+	font-family: "IBM Plex Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
 
 body {
 	background-color: #2a363b;
+}
+
+p {
+	line-height: 1.5;
 }
 
 h1 {
@@ -55,4 +57,20 @@ main {
 .scaleUp:hover {
 	transform: scale(1.01);
 	transition: transform 0.4s;
+}
+
+footer {
+	text-align: center;
+	padding: 2em;
+
+	a {
+		font-size: 20pt;
+		margin: 1em;
+	}
+	path {
+		color: rgb(251, 103, 240);
+	}
+	path:hover {
+		color: darken(rgb(251, 103, 240), 25);
+	}
 }
