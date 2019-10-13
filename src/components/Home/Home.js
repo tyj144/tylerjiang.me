@@ -1,8 +1,10 @@
-import React from 'react'
+import React, { Fragment } from 'react'
 import styles from './Home.module.scss'
 import Link from 'gatsby-link'
 import resumePdf from '../../documents/Resume.pdf'
 import Helmet from 'react-helmet'
+import projects from '../../data/ProjectsContent.js'
+import Project from '../Projects/Project/Project.js'
 
 const gradientTitle = {
   background: 'linear-gradient(rgb(230, 100, 101), rgb(251, 103, 240))',
@@ -33,7 +35,7 @@ const Home = () => (
         Hi, I'm <span style={gradientTitle}>Tyler</span>.
       </h1>
       <div className={styles.navbar}>
-        <Link to={'/projects'}>projects</Link>
+        {/* <Link to={'/projects'}>projects</Link> */}
         <Link to={resumePdf}>resume</Link>
       </div>
     </header>
@@ -81,8 +83,17 @@ const Home = () => (
         </a>.
       </p>
     </div>
+    <div className={styles.Projects}>
+      <h1>Projects</h1>
+      {projects.map(project => (
+        <Fragment>
+          <Project project={project} />
+          <hr />
+        </Fragment>
+      ))}
+    </div>
     <div>
-      <h3>Coursework</h3>
+      <h1>Coursework</h1>
       <ul style={{ margin: 0 }}>
         <li>Deep Learning</li>
         <li>Learning and Sequential Decision Making</li>
