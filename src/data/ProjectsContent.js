@@ -10,7 +10,7 @@ export default [
         src="https://www.youtube.com/embed/fDgOT_8zsaI"
         frameborder="0"
         allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen
+        allowfullscreen="true"
       />
     ),
     tools: ['Vue.js'],
@@ -47,7 +47,7 @@ export default [
         src="https://www.youtube.com/embed/47hELa-0b2I"
         frameborder="0"
         allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen
+        allowfullscreen="true"
       />
     ),
     tools: ['HTML', 'SASS', 'jQuery', 'Java', 'MongoDB'],

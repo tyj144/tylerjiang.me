@@ -72,7 +72,7 @@ const Home = () => (
           src="https://www.youtube.com/embed/4RrQj5c8G44"
           frameborder="0"
           allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen
+          allowfullscreen="true"
           style={{ display: 'block', margin: '0 auto' }}
         />
       </div>
