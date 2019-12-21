@@ -1,16 +1,9 @@
 import React, { Fragment } from 'react'
 import styles from './Home.module.scss'
-import Link from 'gatsby-link'
-import resumePdf from '../../documents/Resume.pdf'
 import Helmet from 'react-helmet'
 import projects from '../../data/ProjectsContent.js'
 import Project from '../Projects/Project/Project.js'
-
-const gradientTitle = {
-  background: 'linear-gradient(rgb(230, 100, 101), rgb(251, 103, 240))',
-  WebkitBackgroundClip: 'text',
-  WebkitTextFillColor: 'transparent',
-}
+import Header from '../Header/Header.js'
 
 const Home = () => (
   <div className={styles.Home}>
@@ -24,25 +17,12 @@ const Home = () => (
         },
       ]}
     />
-    <header
-      style={{
-        display: 'flex',
-        alignItems: 'baseline',
-        justifyContent: 'space-between',
-      }}
-    >
-      <h1>
-        Hi, I'm <span style={gradientTitle}>Tyler</span>.
-      </h1>
-      <div className={styles.navbar}>
-        {/* <Link to={'/projects'}>projects</Link> */}
-        <Link to={resumePdf}>resume</Link>
-      </div>
-    </header>
+    <Header />
     <div>
+      <h1>I'm a problem solver first, and maker second.</h1>
       <p>
-        I'm a junior at <a href="https://www.brown.edu/">Brown University</a>{' '}
-        studying computer science.
+        I'm currently a junior at <a href="https://www.brown.edu/">Brown University</a>, where I study computer science.
+        It's important to me that I 
       </p>
       <p>
         This summer, I was a Software/Site Reliability Engineering Intern at{' '}

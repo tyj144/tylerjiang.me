@@ -1,16 +1,25 @@
+@import "../../assets/master";
+
+.brandLink {
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 10px;
+    color: $navlink;
+}
+
 .ContentContainer {
     padding: 1rem 2.5rem;
     flex: 5;
-    color: black;
+    // color: black;
     margin: 0 auto;
-    max-width: 45em;
+    max-width: 75em;
     // justify-content: center;
     // display: flex;
 
 }
 
 .Content {
-    max-width: 45rem;
+    // max-width: 60rem;
     // background-color: #ffffff;
     // border-radius: 15px;
     // box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.4);

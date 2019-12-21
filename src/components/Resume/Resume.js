@@ -1,7 +1,7 @@
 import React, { Fragment } from 'react';
 import resume from '../../data/Resume.json';
 import styles from './Resume.module.scss';
-import resumePdf from '../../documents/Resume.pdf';
+import resumePdf from '../../assets/documents/Resume.pdf';
 
 import Helmet from 'react-helmet';
 

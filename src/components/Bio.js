@@ -4,7 +4,7 @@ import React from 'react'
 import 'typeface-montserrat'
 import 'typeface-merriweather'
 
-import profilePic from '../images/profile-pic.jpg'
+import profilePic from '../assets/images/profile-pic.jpg'
 
 class Bio extends React.Component {
   render() {
@@ -12,7 +12,7 @@ class Bio extends React.Component {
       <div
         style={{
           display: 'flex',
-          padding: '1rem 0'
+          padding: '1rem 0',
         }}
       >
         <img
@@ -26,8 +26,9 @@ class Bio extends React.Component {
             borderRadius: `50%`,
           }}
         />
-        <p style={{margin:0}}>
-          Written by <strong>Tyler Jiang</strong>, a sophomore at Brown University from New Hampshire.
+        <p style={{ margin: 0 }}>
+          Written by <strong>Tyler Jiang</strong>, a sophomore at Brown
+          University from New Hampshire.
         </p>
       </div>
     )
