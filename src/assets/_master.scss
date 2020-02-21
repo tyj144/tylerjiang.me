@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans:400,700|Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans:400,700|Roboto:400,700&display=swap');
 
 $heading-font: "IBM Plex Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 $body-font: "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
@@ -26,3 +26,10 @@ $heading: $heading-light;
 $text: $text-light;
 $link: $link-light;
 $navlink: $navlink-light;
+
+$section-top-pad: 1.5em;
+$section-side-pad: 5em;
+
+// project showcase sizes
+$proj-title-size: 33pt;
+$tech-stack-size: 9pt;

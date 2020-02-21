@@ -1,8 +1,9 @@
 import React from 'react'
+import styles from './BioSection.module.scss'
 
 const BioSection = props => {
   return (
-    <div>
+    <div className={styles.BioSection}>
       <div>
         <h2>{props.heading}</h2>
         <div>{props.children}</div>

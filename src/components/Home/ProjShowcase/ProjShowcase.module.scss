@@ -1,7 +1,53 @@
-.showcase__logo img {
-    max-width: 100%;
+@import "../../../assets/master";
+
+.showcase {
+    padding: $section-top-pad $section-side-pad;
 }
 
-.showcase__demo video {
-    max-width: 100%;
+.showcase__top {
+    display: flex;
+    justify-content: space-between;
+    padding: 2.5em 0;
+}
+
+.showcase__info {
+    max-width: 40em;
+}
+
+.showcase__heading {
+    margin-bottom: 2.5em;
+    h2 {
+        font-size: $proj-title-size;
+        margin-bottom: 0.25em;
+    }
+    span {
+        font-family: $heading-font;
+        font-size: $tech-stack-size;
+        color: $navlink-light;
+        letter-spacing: 5px;
+        text-transform: uppercase;
+    }
+}
+
+.showcase__text {
+    p {
+        margin-bottom: 1.5em;
+    }
+}
+
+.showcase__logo {
+    margin: 0 auto;
+
+    img {
+        max-width: 20em;
+    }
+}
+
+.showcase__demo {
+    display: flex;
+    justify-content: center;
+    video {
+        max-width: 80%;
+        border-radius: 1em;
+    }
 }

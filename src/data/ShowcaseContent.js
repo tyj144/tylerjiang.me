@@ -15,12 +15,12 @@ const ShowcaseContent = [
     text: (
       <Fragment>
         <p>
-          Hack@Brown is Brown’s annual two-day hackathon which attracts hundreds
-          of hackers from across the country. For the 2020 hackathon, my co-lead
-          and I were tasked with leading the development of the hackathon’s
-          website. I had to interview and hire a team of 7, design the specs for
-          the landing and registration pages, mentor and delegate tasks to
-          members, and deploy the front-end with Netlify.
+          <b>Hack@Brown</b> is Brown’s annual two-day hackathon which attracts
+          hundreds of hackers from across the country. For the 2020 hackathon,
+          my co-lead and I were tasked with leading the development of the
+          hackathon’s website. I had to interview and hire a team of 7, design
+          the specs for the landing and registration pages, mentor and delegate
+          tasks to members, and deploy the front-end with Netlify.
         </p>
         <p>
           Leading the Dev Team was a new experience for me, and I’m incredibly
@@ -51,11 +51,11 @@ const ShowcaseContent = [
     text: (
       <Fragment>
         <p>
-          Unsupervised Representation Learning in Atari is a paper published by
-          Mila which proposes a new representation learning method for Atari
-          games. Their method, which is called “ST-DIM,” learns a representation
-          of the game by maximizing the mutual information between subsequent
-          game frames.
+          <b>Unsupervised Representation Learning in Atari</b> is a paper
+          published by Mila which proposes a new representation learning method
+          for Atari games. Their method, which is called “ST-DIM,” learns a
+          representation of the game by maximizing the mutual information
+          between subsequent game frames.
         </p>
         <p>
           My team and I reproduced this paper as part of the NeurIPS 2019
@@ -82,9 +82,9 @@ const ShowcaseContent = [
     text: (
       <Fragment>
         <p>
-          Elephluent is a language-learning platform which helps children pick
-          up new languages through activities like matching games, speech-based
-          exercises, picture learning.
+          <b>Elephluent</b> is a language-learning platform which helps children
+          pick up new languages through activities like matching games,
+          speech-based exercises, picture learning.
         </p>
         <p>
           I designed the site with Adobe XD, where I drew inspiration from apps
@@ -112,13 +112,13 @@ const ShowcaseContent = [
     text: (
       <Fragment>
         <p>
-          Manim Interactive Docs is documentation for manim, the math animation
-          library created by 3Blue1Brown. I created this while working with
-          Professor Samuel Watson to help myself understand the basics of the
-          library. I first wrote an animation for each “math object” (mobject)
-          and rendered the video with Python. Then, I wrote the site to jump to
-          the animation associated with each “mobject,” and attached a code
-          snippet with how to create it in Python.
+          <b>Manim Interactive Docs</b> is documentation for manim, the math
+          animation library created by 3Blue1Brown. I created this while working
+          with Professor Samuel Watson to help myself understand the basics of
+          the library. I first wrote an animation for each “math object”
+          (mobject) and rendered the video with Python. Then, I wrote the site
+          to jump to the animation associated with each “mobject,” and attached
+          a code snippet with how to create it in Python.
         </p>
         <p>
           The coolest part of this project was how lightweight and versatile the

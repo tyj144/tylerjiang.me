@@ -1,5 +1,9 @@
 @import "../../assets/master";
 
+.brandContainer {
+    padding: 1em $section-side-pad;
+}
+
 .brandLink {
     text-transform: uppercase;
     letter-spacing: 4px;

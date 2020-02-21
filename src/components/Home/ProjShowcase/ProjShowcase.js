@@ -12,7 +12,7 @@ const ProjShowcase = props => {
     color: textColor,
   }
   return (
-    <div className="showcase" style={backgroundStyle}>
+    <div className={styles.showcase} style={backgroundStyle}>
       {props.isFirst ? (
         <div>
           <h1>Here are some cool projects I've worked on:</h1>
@@ -20,23 +20,28 @@ const ProjShowcase = props => {
       ) : (
         ''
       )}
-      <div className="showcase__top">
-        <div className="showcase__info">
+      <div className={styles.showcase__top}>
+        {/* Title + description: top left section */}
+        <div className={styles.showcase__info}>
+          {/* Title */}
           <div className={styles.showcase__heading}>
             <h2>{attributes.name}</h2>
             <span>{attributes.stack.join(', ')}</span>
           </div>
-          <div className="showcase__text">
+          {/* Project description */}
+          <div className={styles.showcase__text}>
             <div>{attributes.text}</div>
             <div>
               <a href={attributes.link}>Link</a>
             </div>
           </div>
         </div>
+        {/* Logo: top right section*/}
         <div className={styles.showcase__logo}>
           <img src={attributes.logo} />
         </div>
       </div>
+      {/* Video: bottom section */}
       <div className={styles.showcase__demo}>
         <video autoPlay muted>
           <source src={attributes.demo} />
