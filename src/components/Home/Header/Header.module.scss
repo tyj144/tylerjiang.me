@@ -35,3 +35,12 @@
 .period {
     -webkit-text-fill-color: $text;
 }
+
+@media (max-width: 600px) { 
+    .header {
+        flex-direction: column;
+    }
+    img {
+        max-width: 100%;
+    }
+}
