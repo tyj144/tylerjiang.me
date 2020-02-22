@@ -21,7 +21,7 @@ const Home = () => (
       ]}
     />
     <Header />
-    <div className={styles.bio}>
+    {/* <div className={styles.bio}>
       <BioSection
         heading="I’m a developer and problem solver at heart."
         img={brownLogo}
@@ -87,8 +87,8 @@ const Home = () => (
           Software Engineering and will be a UTA for Machine Learning in Spring
           2020.
         </p>
-      </BioSection>
-      {/* <BioSection heading="I like to stay active." img={undefined}>
+      </BioSection> */}
+    {/* <BioSection heading="I like to stay active." img={undefined}>
         <p>
           I love sports. I follow the NBA religiously, and in high school, I
           played soccer and ran the 55m, 110m, and 300m hurdles. I placed 10th
@@ -105,7 +105,7 @@ const Home = () => (
           Fun Fact: I hold the Brown Running Club record for the 60m hurdles.{' '}
         </p>
       </BioSection> */}
-    </div>
+    {/* </div> */}
     <div className={styles.showcase}>
       {showcaseContent.map((showcase, i) => (
         <ProjShowcase isFirst={i === 0} attributes={showcase} />

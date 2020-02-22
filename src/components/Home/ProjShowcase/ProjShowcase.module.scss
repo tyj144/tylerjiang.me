@@ -1,5 +1,18 @@
 @import "../../../assets/master";
 
+@mixin smallCaps {
+    font-family: $heading-font;
+    font-size: $tech-stack-size;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+
+.startHead {
+    font-weight: normal;
+    font-size: 32pt;
+    margin-bottom: 0;
+}
+
 .showcase {
     padding: $section-top-pad $section-side-pad;
 }
@@ -21,12 +34,16 @@
         margin-bottom: 0.25em;
     }
     span {
-        font-family: $heading-font;
-        font-size: $tech-stack-size;
-        color: $navlink-light;
-        letter-spacing: 5px;
-        text-transform: uppercase;
+        @include smallCaps;
     }
+}
+
+.stackRegular {
+    color: $navlink-light;
+}
+
+.stackDark {
+    color: white;
 }
 
 .showcase__text {
@@ -35,10 +52,19 @@
     }
 }
 
+.showcase__links a {
+    @include smallCaps;
+}
+
+.showcase__links a:hover {
+    text-decoration: underline;
+}
+
 .showcase__logo {
     margin: 0 auto;
-
+    
     img {
+        border-radius: 1em;
         max-width: 20em;
     }
 }
@@ -46,7 +72,7 @@
 .showcase__demo {
     display: flex;
     justify-content: center;
-    video {
+    video, img {
         max-width: 80%;
         border-radius: 1em;
     }

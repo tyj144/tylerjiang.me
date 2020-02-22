@@ -1,5 +1,9 @@
 import React, { Fragment } from 'react'
 
+import habLogo from '../assets/images/hab_logo.png'
+import habDemo from '../assets/images/hackatbrown.png'
+import stdimDiagram from '../assets/images/stdim.png'
+// import habDemo from '../assets/videos/elephluent_autoplay.mp4'
 import elephluentLogo from '../assets/images/elephluent.png'
 import elephluentDemo from '../assets/videos/elephluent_autoplay.mp4'
 import manimLogo from '../assets/images/manim_logo.png'
@@ -8,10 +12,10 @@ import manimDemo from '../assets/videos/manim_site_demo.mp4'
 const ShowcaseContent = [
   {
     name: 'Hack@Brown 2020',
-    logo: 'undefined',
+    logo: habLogo,
     stack: ['React/Typescript', 'Flask/Python', 'PostgreSQL'],
     link: 'https://2020.hackatbrown.org',
-    demo: 'undefined',
+    demoImg: habDemo,
     text: (
       <Fragment>
         <p>
@@ -38,7 +42,7 @@ const ShowcaseContent = [
   {
     name: '[Re] Unsupervised Representation Learning in Atari',
     stack: ['Python/PyTorch'],
-    logo: 'undefined',
+    logo: stdimDiagram,
     logoCaption: (
       <p>
         A diagram of ST-DIM from the authors’ <a href="">poster</a>.
@@ -60,13 +64,14 @@ const ShowcaseContent = [
         <p>
           My team and I reproduced this paper as part of the NeurIPS 2019
           Reproducibility Challenge, which we participated in under Professor
-          Michael Littman’s class, “Learning and Sequential Decision Making.” In
-          this project, I built the base encoder architecture (a convolutional
-          neural network), researched ST-DIM and the papers it was based on, and
-          organized our report and presentation structure. I learned a lot from
-          this project, mainly how thoroughly research papers need to be read to
-          be understood and how to test and evaluate model performance in a
-          scientific way.
+          Michael Littman’s class, “<a href="http://cs.brown.edu/courses/cs2951f/">
+            Learning and Sequential Decision Making
+          </a>.” In this project, I built and traied the base encoder
+          architecture (a convolutional neural network), researched ST-DIM and
+          its prerequisite papers, and wrote and presented on our findings. I
+          learned a lot from this project, mainly how thoroughly research papers
+          need to be read to be understood and how to test and evaluate model
+          performance in a scientific way.
         </p>
       </Fragment>
     ),
