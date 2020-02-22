@@ -10,3 +10,10 @@
     font-size: 10px;
     color: $navlink;
 }
+
+@media (max-width: 600px) {
+    .brandContainer {
+        text-align: center;
+        padding: $section-top-pad $section-side-pad-mobile;
+    }
+}

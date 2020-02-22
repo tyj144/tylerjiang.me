@@ -39,8 +39,15 @@
 @media (max-width: 600px) { 
     .header {
         flex-direction: column;
+        padding: $section-top-pad $section-side-pad-mobile;
     }
     img {
         max-width: 100%;
+    }
+    .intro, .navbar {
+        text-align: center;
+    }
+    .name {
+        font-size: $proj-title-mobile;
     }
 }

@@ -22,7 +22,7 @@ const Header = () => (
     <div className={styles.left}>
       <div className={styles.intro}>
         <span className={styles.hiIm}>Hi, I'm</span>
-        <h1 style={gradientTitle}>Tyler Jiang.</h1>
+        <h1 className={styles.name} style={gradientTitle}>Tyler Jiang.</h1>
       </div>
       <div className={styles.navbar}>
         <a href={resumePdf}>resume</a>
