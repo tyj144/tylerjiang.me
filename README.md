@@ -13,3 +13,4 @@ If you want to use this site for yourself, replace the data in `src/data` and re
 [] rename text to description in JSON
 [] standardize names of BioSection, Header, and ProjShowcase
 [] standardize CSS naming conventions
+[] fix slightly off center logo on mobile (b/c of left margin)

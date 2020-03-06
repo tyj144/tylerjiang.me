@@ -64,7 +64,7 @@ const ProjShowcase = props => {
         )}
 
         {attributes.demo ? (
-          <video autoPlay muted>
+          <video autoPlay loop muted>
             <source src={attributes.demo} />
             Your browser does not support the video tag.
           </video>
