@@ -3,6 +3,8 @@ This is my personal website built with Gatsby.js. Everything is designed and bui
 
 I used this project to apply what I learned about React and GraphQL.
 
+![A scroll-through of my website](https://github.com/tyj144/tylerjiang.me/blob/experiment/demo.gif)
+
 ## Run / Build Instructions
 * To run, clone the project and run `gatsby develop`. 
 * To build the project, run `gatsby build`.
