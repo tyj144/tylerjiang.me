@@ -1,19 +1,19 @@
-# tylerjiang.me
-This is my personal website built with Gatsby.js. Everything is designed and built from scratch, except for parts of the blog structure which were extended off of `gatsby-starter-blog`.
+<h1 align="center">
+  <a href="https://tylerjiang.me">tylerjiang.me</a>
+</h1>
 
-I used this project to apply what I learned about React and GraphQL.
+<p align="center">My <b>personal portfolio</b> built with Gatsby.js.</p>
 
-![A scroll-through of my website](https://github.com/tyj144/tylerjiang.me/blob/experiment/demo.gif)
+<p align="center">
+  <img src="https://github.com/tyj144/tylerjiang.me/blob/experiment/demo.gif" alt="A scroll-through of my website">
+</p>
 
 ## Run / Build Instructions
 * To run, clone the project and run `gatsby develop`. 
 * To build the project, run `gatsby build`.
 
-## Repurposing the Site
-If you want to use this site for yourself, replace the data in `src/data` and replace the blog posts in `src/pages`.
-
 ## To-Do
-- [] rename text to description in JSON
-- [] standardize names of BioSection, Header, and ProjShowcase
-- [] standardize CSS naming conventions
-- [] fix slightly off center logo on mobile (b/c of left margin)
+- [ ] rename text to description in JSON
+- [ ] standardize names of BioSection, Header, and ProjShowcase
+- [ ] standardize CSS naming conventions
+- [ ] fix slightly off center logo on mobile (b/c of left margin)
