@@ -9,3 +9,8 @@ I used this project to apply what I learned about React and GraphQL.
 
 ## Repurposing the Site
 If you want to use this site for yourself, replace the data in `src/data` and replace the blog posts in `src/pages`.
+
+[] rename text to description in JSON
+[] standardize names of BioSection, Header, and ProjShowcase
+[] standardize CSS naming conventions
+[] fix slightly off center logo on mobile (b/c of left margin)

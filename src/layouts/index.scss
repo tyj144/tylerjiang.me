@@ -1,6 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans:400,700&display=swap');
-
-$link: #fecea8;
+@import "../assets/master";
 
 html {
 	height: 100%;
@@ -9,11 +7,15 @@ html {
 body {
 	min-height: 100%;
 	margin: 0;
-	font-family: "IBM Plex Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+	font-family: $body-font;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: $heading-font;
 }
 
 body {
-	background-color: #2a363b;
+	background-color: $bg;
 }
 
 p {
@@ -21,12 +23,12 @@ p {
 }
 
 h1 {
-	color: white;
+	color: $heading;
 }
 
-* {
-	color: rgba(255, 255, 255, 0.9);
-}
+// * {
+// 	color: $text;
+// }
 
 a {
 	color: $link;

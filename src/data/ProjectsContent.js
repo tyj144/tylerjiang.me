@@ -24,7 +24,7 @@ export default [
     partners: ['Dat-Thanh Nguyen', 'Kristen Mashikian', 'Shekar Ramaswamy'],
     // images: [
     //   {
-    //     src: require('../images/projects/elephluent/dashboard.png'),
+    //     src: require('../assets/images/projects/elephluent/dashboard.png'),
     //     alt: 'Elephluent dashboard with module tiles',
     //   },
     // {
@@ -69,7 +69,7 @@ export default [
     partners: ['Oscar Newman'],
     images: [
       {
-        src: require('../images/projects/maps/maps.png'),
+        src: require('../assets/images/projects/maps/maps.png'),
         alt: 'Maps screenshot',
       },
     ],
@@ -86,7 +86,7 @@ export default [
     partners: ['Aansh Shah', 'Zachary Horvitz'],
     images: [
       {
-        src: require('../images/projects/first-drafts/first-drafts.png'),
+        src: require('../assets/images/projects/first-drafts/first-drafts.png'),
         alt: 'First Drafts website screenshot',
       },
     ],
@@ -103,7 +103,7 @@ export default [
     partners: [],
     images: [
       {
-        src: require('../images/projects/autocorrect/autocorrect.png'),
+        src: require('../assets/images/projects/autocorrect/autocorrect.png'),
         alt: 'Autocorrect screenshot',
       },
     ],
@@ -120,7 +120,7 @@ export default [
     partners: [],
     images: [
       {
-        src: require('../images/projects/tylerjiang-me/tylerjiang-me.png'),
+        src: require('../assets/images/projects/tylerjiang-me/tylerjiang-me.png'),
         alt: 'Tyler Jiang personal site screenshot',
       },
     ],
@@ -136,7 +136,7 @@ export default [
     partners: [],
     images: [
       {
-        src: require('../images/projects/bacon/actor.png'),
+        src: require('../assets/images/projects/bacon/actor.png'),
         alt: 'Bacon actor screenshot',
       },
     ],
@@ -152,7 +152,7 @@ export default [
     partners: ['Fenil Doshi', 'Rohit Saha', 'Samuel Zhang'],
     images: [
       {
-        src: require('../images/projects/speakeasy/home.png'),
+        src: require('../assets/images/projects/speakeasy/home.png'),
         alt: 'SpeakEasy home page',
       },
     ],
@@ -175,7 +175,7 @@ export default [
     partners: ['Randy Wang', 'Nishanth Duriarasu', 'Kevin Kelly'],
     images: [
       {
-        src: require('../images/projects/google-calendar-automator/cal-auto.png'),
+        src: require('../assets/images/projects/google-calendar-automator/cal-auto.png'),
         alt: 'An example of a Google Calendar Automator event added.',
       },
     ],
@@ -196,7 +196,7 @@ export default [
     partners: [],
     images: [
       {
-        src: require('../images/projects/chatterbox/chatterbox.png'),
+        src: require('../assets/images/projects/chatterbox/chatterbox.png'),
         alt: '',
       },
     ],
@@ -212,7 +212,7 @@ export default [
     partners: ['Dylan Sam', 'Ryan Choi', 'Sonny Mo'],
     images: [
       {
-        src: require('../images/projects/flight-finder/home.png'),
+        src: require('../assets/images/projects/flight-finder/home.png'),
         alt: 'Flight Finder home page',
       },
     ],

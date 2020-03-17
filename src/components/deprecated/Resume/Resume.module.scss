@@ -1,0 +1,43 @@
+.section {
+    margin-bottom: 2rem;
+}
+
+.sectionName {
+    font-size: 10pt;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #555;
+}
+
+.itemTitleContainer {
+    display: flex;
+    justify-content: space-between;
+}
+
+// .itemHeaderContainer {
+
+// }
+
+.itemDateContainer {
+    text-align: right;
+}
+
+.itemHeader,
+.itemDate {
+    margin: 0;
+}
+
+.itemSubtitle {
+    font-style: italic;
+    font-weight: normal;
+}
+
+@media (max-width: 975px) {
+    .itemTitleContainer {
+        justify-content: initial;
+        flex-direction: column;
+    }
+    .itemDateContainer {
+        text-align: left;
+    }
+}

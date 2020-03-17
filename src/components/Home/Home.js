@@ -1,16 +1,12 @@
-import React, { Fragment } from 'react'
+import React from 'react'
 import styles from './Home.module.scss'
-import Link from 'gatsby-link'
-import resumePdf from '../../documents/Resume.pdf'
 import Helmet from 'react-helmet'
-import projects from '../../data/ProjectsContent.js'
-import Project from '../Projects/Project/Project.js'
+import Header from './Header/Header.js'
 
-const gradientTitle = {
-  background: 'linear-gradient(rgb(230, 100, 101), rgb(251, 103, 240))',
-  WebkitBackgroundClip: 'text',
-  WebkitTextFillColor: 'transparent',
-}
+import BioSection from './BioSection/BioSection'
+import ProjShowcase from './ProjShowcase/ProjShowcase'
+import showcaseContent from '../../data/ShowcaseContent.js'
+import brownLogo from '../../assets/images/brown-logo.png'
 
 const Home = () => (
   <div className={styles.Home}>
@@ -24,25 +20,109 @@ const Home = () => (
         },
       ]}
     />
-    <header
-      style={{
-        display: 'flex',
-        alignItems: 'baseline',
-        justifyContent: 'space-between',
-      }}
-    >
-      <h1>
-        Hi, I'm <span style={gradientTitle}>Tyler</span>.
-      </h1>
-      <div className={styles.navbar}>
-        {/* <Link to={'/projects'}>projects</Link> */}
-        <Link to={resumePdf}>resume</Link>
-      </div>
-    </header>
-    <div>
+    <Header />
+    {/* <div className={styles.bio}>
+      <BioSection
+        heading="I’m a developer and problem solver at heart."
+        img={brownLogo}
+      >
+        <p>
+          I’m a junior at Brown University studying computer science. This
+          semester, I’m the Co-Lead of the Hack@Brown Dev Team, where I lead a
+          team of 7 to develop the Hack@Brown website. Previously, I was a
+          Software Engineering Intern at Fidelity Investments for two summers,
+          where I gained experience in Site Reliability Engineering and
+          full-stack software engineering.
+        </p>
+        <ul>
+          <li>Recent Applications of Probability and Statistics</li>
+          <li>Distributed Computing Systems</li>
+          <li>Deep Learning</li>
+          <li>Learning and Sequential Decision Making</li>
+          <li>
+            <a href="http://cs.brown.edu/courses/cs1420/">Machine Learning</a>
+          </li>
+          <li>
+            <a href="http://cs.brown.edu/courses/cs033/">
+              Intro to Computer Systems
+            </a>
+          </li>
+          <li>
+            <a href="http://cs.brown.edu/courses/csci0320/">
+              Intro to Software Engineering
+            </a>
+          </li>
+          <li>
+            <a href="http://cs.brown.edu/courses/csci0220/">
+              Intro to Discrete Structures and Probability
+            </a>
+          </li>
+          <li>Honors Statistical Inference I</li>
+          <li>Linear Algebra</li>
+          <li>Honors Multivariable Calculus</li>
+          <li>
+            <a href="https://cs.brown.edu/courses/cs019/2017/index.html">
+              Accelerated Introduction to Computer Science
+            </a>
+          </li>
+        </ul>
+      </BioSection>
+      <BioSection
+        heading="I love to teach and explain."
+        img={undefined}
+        imgCaption="An animation on machine arithmetic I created for the Data Science Initiative."
+      >
+        <p>
+          Math and computer science can be confusing. There’s a lot of notation
+          and technical complexity to wrangle with, and people often give up
+          without realizing they’re capable of understanding it. That’s why it’s
+          important to have people who are capable of taking complex ideas and
+          distilling them into simpler, more intuitive explanations.
+        </p>
+        <p>
+          In my time at Brown, I’ve been fortunate to work as a Course Content
+          Developer for the Brown Data Science Initiative, where I’ve animated
+          data science videos and built interactive exercises for Data Gymnasia.
+          I’ve also been an Undergraduate Teaching Assistant (UTA) for Intro to
+          Software Engineering and will be a UTA for Machine Learning in Spring
+          2020.
+        </p>
+      </BioSection> */}
+    {/* <BioSection heading="I like to stay active." img={undefined}>
+        <p>
+          I love sports. I follow the NBA religiously, and in high school, I
+          played soccer and ran the 55m, 110m, and 300m hurdles. I placed 10th
+          in the 55m hurdles at the 2017 NHIAA Division I Indoor Track and Field
+          Championships.
+        </p>
+        <p>
+          I also love to travel and learn about other countries and cultures!
+          I’m particularly interested in geography, history, and comparative
+          literature as a way to learn about the world. My favorite place that
+          I’ve been to is London :)
+        </p>
+        <p>
+          Fun Fact: I hold the Brown Running Club record for the 60m hurdles.{' '}
+        </p>
+      </BioSection> */}
+    {/* </div> */}
+    <div className={styles.showcase}>
+      {showcaseContent.map((showcase, i) => (
+        <ProjShowcase isFirst={i === 0} attributes={showcase} />
+      ))}
+    </div>
+  </div>
+)
+
+export default Home
+
+{
+  /* <div>
+      <h1>I'm a problem solver first, and maker second.</h1>
       <p>
-        I'm a junior at <a href="https://www.brown.edu/">Brown University</a>{' '}
-        studying computer science.
+        I'm currently a junior at{' '}
+        <a href="https://www.brown.edu/">Brown University</a>, where I study
+        computer science. It's important to me that I
       </p>
       <p>
         This summer, I was a Software/Site Reliability Engineering Intern at{' '}
@@ -129,15 +209,5 @@ const Home = () => (
       In my free time, I love to follow the NBA, play basketball and soccer, and
       watch TV.
     </p>
-    {/* {sections.map(section => (
-      <div key={section.id} className={styles.section}>
-        <div className={styles.imageContainer}>
-          <img src={section.img.src} alt={section.img.alt} />
-        </div>
-        <div className={styles.textContainer}>{section.text}</div>
-      </div>
-    ))} */}
-  </div>
-)
-
-export default Home
+  </div> */
+}

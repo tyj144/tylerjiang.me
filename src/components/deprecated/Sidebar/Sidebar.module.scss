@@ -1,0 +1,46 @@
+.Sidebar {
+	// background-color: #F5F5F5;
+	text-align: center;
+	padding: 2rem;
+	// max-width: 40rem;
+	padding-top: 5rem;
+	flex: 2;
+
+	a {
+		color: #333;
+	}
+}
+
+.name {
+	font-size: 30pt;
+	margin-bottom: 10px;
+}
+
+.profilePic {
+	width: 15rem;
+	margin: 0 auto;
+	border-radius: 50%;
+}
+
+.subtitle {
+	color: rgba(0, 0, 0, 0.7);
+	font-size: 12pt;
+}
+
+.contact {
+	padding: 20px 0;
+}
+
+.contact a {
+	padding: 10px;
+	font-size: 30px;
+}
+
+@media (max-width: 815px) {
+	.Sidebar {
+		padding: 2rem;
+	}
+	.profilePic {
+		width: 10rem;
+	}
+}

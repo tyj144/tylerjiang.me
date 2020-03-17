@@ -17,10 +17,9 @@ class Template extends React.Component {
     return (
       <div>
         <main>
-          {/* <Sidebar></Sidebar> */}
           <Content>{children()}</Content>
         </main>
-        <footer>
+        {/* <footer>
           <div>
             <a href="mailto:tyler_jiang@brown.edu">
               <FontAwesomeIcon icon={faEnvelope} />
@@ -32,7 +31,7 @@ class Template extends React.Component {
               <FontAwesomeIcon icon={faLinkedinIn} />
             </a>
           </div>
-        </footer>
+        </footer> */}
       </div>
     )
   }
