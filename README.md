@@ -5,7 +5,7 @@
 <p align="center">My <b>personal portfolio</b> built with Gatsby.js.</p>
 
 <p align="center">
-  <img src="https://github.com/tyj144/tylerjiang.me/blob/experiment/demo.gif" alt="A scroll-through of my website">
+  <img src="https://github.com/tyj144/tylerjiang.me/blob/master/demo.gif" alt="A scroll-through of my website">
 </p>
 
 ## Run / Build Instructions
