@@ -57,17 +57,14 @@
     color: inherit;
 }
 
-.showcase__links a {
+a.showcase__link {
     @include smallCaps;
     text-decoration: none;
+    margin-right: 2em;
 }
 
-.showcase__links a:hover {
+a.showcase__link:hover {
     text-decoration: underline;
-}
-
-.showcase__info + .showcase__logo {
-    margin-left: 2em;
 }
 
 .showcase__logo {
@@ -91,7 +88,7 @@
     }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 800px) {
     .showcase__top {
         flex-direction: column-reverse;
     }
@@ -106,7 +103,7 @@
     }
 
     .showcase__logo img {
-        max-width: 80%;
+        max-width: 300px;
     }
 
     .showcase__demo {
@@ -117,5 +114,17 @@
 
     .startHead, .showcase__heading h2 {
         font-size: $proj-title-mobile;
+    }
+}
+
+@media (max-width: 500px) {
+    .showcase__logo img {
+        max-width: 80%;
+    }
+}
+
+@media (min-width: 600px) {
+    .showcase__info + .showcase__logo {
+        margin-left: 2em;
     }
 }

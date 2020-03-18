@@ -36,10 +36,13 @@
     -webkit-text-fill-color: $text;
 }
 
-@media (max-width: 600px) { 
+@media (max-width: 950px) { 
     .header {
         flex-direction: column;
         padding: $section-top-pad $section-side-pad-mobile;
+    }
+    .right {
+        margin: 0 auto;
     }
     img {
         max-width: 100%;
