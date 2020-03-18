@@ -12,9 +12,7 @@ const ProjShowcase = props => {
     : styles.stackDark
   // TODO: use a class for colors instead
   const backgroundStyle = {
-    background: `linear-gradient(${attributes.style.gradColorStart}, ${
-      attributes.style.gradColorEnd
-    })`,
+    background: `linear-gradient(${attributes.style.gradColorStart}, ${attributes.style.gradColorEnd})`,
     color: textColor,
   }
   return (
@@ -40,13 +38,32 @@ const ProjShowcase = props => {
           <div className={styles.showcase__text}>
             <div>{attributes.text}</div>
             <div className={styles.showcase__links}>
-              <a style={{ color: textColor }} href={attributes.link}>
+              <a
+                className={styles.showcase__link}
+                style={{ color: textColor }}
+                href={attributes.link}
+              >
                 <FontAwesomeIcon
                   icon={faExternalLinkAlt}
                   style={{ color: textColor, marginRight: '1em' }}
                 />
                 Link
               </a>
+              {attributes.github ? (
+                <a
+                  className={styles.showcase__link}
+                  style={{ color: textColor }}
+                  href={attributes.github}
+                >
+                  <FontAwesomeIcon
+                    icon={faExternalLinkAlt}
+                    style={{ color: textColor, marginRight: '1em' }}
+                  />
+                  GitHub
+                </a>
+              ) : (
+                ''
+              )}
             </div>
           </div>
         </div>
