@@ -7,6 +7,7 @@ import BioSection from './BioSection/BioSection'
 import ProjShowcase from './ProjShowcase/ProjShowcase'
 import showcaseContent from '../../data/ShowcaseContent.js'
 import brownLogo from '../../assets/images/brown-logo.png'
+import Footer from './Footer/Footer'
 
 const Home = () => (
   <div className={styles.Home}>
@@ -111,6 +112,7 @@ const Home = () => (
         <ProjShowcase isFirst={i === 0} attributes={showcase} />
       ))}
     </div>
+    <Footer />
   </div>
 )
 

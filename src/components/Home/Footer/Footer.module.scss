@@ -1,0 +1,23 @@
+@import "../../../assets/master";
+
+.Footer {
+    background-color: $bg;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 1em;
+    padding-bottom: 2em;
+}
+
+.tagline {
+    font-family: "IBM Plex Sans", "Roboto", "Arial", sans-serif;
+    font-size: 8pt;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+.Footer svg {
+    height: 2em;
+    width: 2em;
+    margin: 20px 30px;
+}
