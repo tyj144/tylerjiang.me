@@ -109,7 +109,7 @@ const Home = () => (
     {/* </div> */}
     <div className={styles.showcase}>
       {showcaseContent.map((showcase, i) => (
-        <ProjShowcase isFirst={i === 0} attributes={showcase} />
+        <ProjShowcase key={i} isFirst={i === 0} attributes={showcase} />
       ))}
     </div>
     <Footer />

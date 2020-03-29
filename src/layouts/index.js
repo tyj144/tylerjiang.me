@@ -19,19 +19,6 @@ class Template extends React.Component {
         <main>
           <Content>{children()}</Content>
         </main>
-        {/* <footer>
-          <div>
-            <a href="mailto:tyler_jiang@brown.edu">
-              <FontAwesomeIcon icon={faEnvelope} />
-            </a>
-            <a href="https://github.com/tyj144">
-              <FontAwesomeIcon icon={faGithub} />
-            </a>
-            <a href="https://www.linkedin.com/in/tyler-jiang-22a22a150/">
-              <FontAwesomeIcon icon={faLinkedinIn} />
-            </a>
-          </div>
-        </footer> */}
       </div>
     )
   }
