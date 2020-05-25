@@ -19,18 +19,29 @@ const ShowcaseContent = [
     text: (
       <Fragment>
         <p>
-          <b>Hack@Brown</b> is Brown’s annual two-day hackathon which attracts
-          hundreds of hackers from across the country. For the 2020 hackathon,
-          my co-lead and I were tasked with leading the development of the
-          hackathon’s website. I had to interview and hire a team of 7, design
-          the specs for the landing and registration pages, mentor and delegate
-          tasks to members, and deploy the front-end with Netlify.
+          <b>Hack@Brown</b> is Brown University’s largest annual hackathon,
+          attracting hundreds of hackers from across the country every January.
+          For the 2020 hackathon, my co-lead and I were tasked with managing the
+          development of the hackathon’s website.
         </p>
         <p>
-          Leading the Dev Team was a new experience for me, and I’m incredibly
-          glad I did it. It gave me valuable experience leading the development
-          of a widely-used site, working cross-functionally with design and
-          sponsorship teams, and evaluating tradeoffs under tight deadlines.
+          I interviewed and hired 5 additional members, set up the project
+          structure and Git workflow for the team, and guided them through the
+          construction of our landing pages, registration infrastructure, and
+          admissions dashboards. This required me to maintain a birds-eye view
+          of a complex project which involved React and TypeScript on the front
+          end, Firebase for authentication and file management, and a Flask REST
+          API on the back end. I was also responsible for all domain management
+          for hackatbrown.org and automating deployments to our development and
+          production environments.
+        </p>
+        <p>
+          Leading the Dev Team was a new experience for me, and I’m deeply
+          grateful for the opportunity. Not only did I get to lead the
+          development of a widely-used website, but I got to work closely with
+          the talented people in our organization, such as our design and
+          sponsorship teams. I also learned how to evaluate and communicate
+          tradeoffs with members in the organization under tight deadlines.
         </p>
       </Fragment>
     ),
@@ -57,21 +68,26 @@ const ShowcaseContent = [
         <p>
           <b>Unsupervised Representation Learning in Atari</b> is a paper
           published by Mila which proposes a new representation learning method
-          for Atari games. Their method, which is called “ST-DIM,” learns a
-          representation of the game by maximizing the mutual information
-          between subsequent game frames.
+          for Atari games. Their method, ST-DIM, learns a representation of the
+          game by maximizing the mutual information between subsequent game
+          frames.
         </p>
         <p>
           My team and I reproduced this paper as part of the NeurIPS 2019
           Reproducibility Challenge, which we participated in under Professor
-          Michael Littman’s class, “<a href="http://cs.brown.edu/courses/cs2951f/">
+          Michael Littman’s class, “
+          <a href="http://cs.brown.edu/courses/cs2951f/">
             Learning and Sequential Decision Making
-          </a>.” In this project, I built and traied the base encoder
-          architecture (a convolutional neural network), researched ST-DIM and
-          its prerequisite papers, and wrote and presented on our findings. I
-          learned a lot from this project, mainly how thoroughly research papers
-          need to be read to be understood and how to test and evaluate model
+          </a>
+          .” In this project, I built and trained the base encoder architecture
+          (a convolutional neural network), researched ST-DIM and its
+          prerequisite papers, and wrote and presented our findings. This was my
+          first time conducting research, and I learned how to read (and
+          re-read) papers thoroughly and how to test and evaluate model
           performance in a scientific way.
+        </p>
+        <p>
+          <b>Partners:</b> Lawrence Huang, Kendrick Tan, Shekar Ramaswamy
         </p>
       </Fragment>
     ),
@@ -98,6 +114,9 @@ const ShowcaseContent = [
           of my team to send lesson and user progress data via a Java-based REST
           API.
         </p>
+        <p>
+          <b>Partners:</b> Dat-Thanh Nguyen, Kristen Mashikian, Shekar Ramaswamy
+        </p>
       </Fragment>
     ),
     partners: ['Dat-Thanh Nguyen', 'Kristen Mashikian', 'Shekar Ramaswamy'],
@@ -117,18 +136,25 @@ const ShowcaseContent = [
     text: (
       <Fragment>
         <p>
-          <b>Manim Interactive Docs</b> is documentation for manim, the math
-          animation library created by 3Blue1Brown. I created this while working
-          with Professor Samuel Watson to help myself understand the basics of
-          the library. I first wrote an animation for each “math object”
-          (mobject) and rendered the video with Python. Then, I wrote the site
-          to jump to the animation associated with each “mobject,” and attached
-          a code snippet with how to create it in Python.
+          <b>Manim Interactive Docs</b> is a website I built to document common
+          use cases for <a href="https://github.com/3b1b/manim">manim</a>, the
+          math animation library created by{' '}
+          <a href="https://www.youtube.com/channel/UCYO_jab_esuFRV4b17AJtAw">
+            3Blue1Brown
+          </a>
+          . I created this while working with Professor{' '}
+          <a href="http://www.math.brown.edu/~sswatson/index.html">
+            Samuel Watson
+          </a>{' '}
+          to help myself understand the basics of the library. I first wrote an
+          animation for each “math object” (mobject) and rendered the video with
+          Python. Then, I wrote the site to jump to the timestamp associated
+          with each “mobject,” and displayed the Python code snippet that would
+          render it in manim.
         </p>
         <p>
-          The coolest part of this project was how lightweight and versatile the
-          Vue.js library was: it took only ~200 lines of code to build the
-          entire site.
+          One of the coolest parts of this project was how lightweight it was.
+          Using the Vue.js library, the whole site only took ~200 lines of code.
         </p>
       </Fragment>
     ),
