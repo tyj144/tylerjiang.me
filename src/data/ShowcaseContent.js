@@ -3,7 +3,6 @@ import React, { Fragment } from 'react'
 import habLogo from '../assets/images/hab_logo.png'
 import habDemo from '../assets/images/hackatbrown.png'
 import stdimDiagram from '../assets/images/stdim.png'
-// import habDemo from '../assets/videos/elephluent_autoplay.mp4'
 import elephluentLogo from '../assets/images/elephluent.png'
 import elephluentDemo from '../assets/videos/elephluent_autoplay.mp4'
 import manimLogo from '../assets/images/manim_logo.png'
@@ -21,8 +20,8 @@ const ShowcaseContent = [
         <p>
           <b>Hack@Brown</b> is Brown University’s largest annual hackathon,
           attracting hundreds of hackers from across the country every January.
-          For the 2020 hackathon, my co-lead and I were tasked with managing the
-          development of the hackathon’s website.
+          For the 2020 hackathon, my co-lead and I led the development of the
+          hackathon’s website.
         </p>
         <p>
           I interviewed and hired 5 additional members, set up the project
@@ -81,10 +80,10 @@ const ShowcaseContent = [
           </a>
           .” In this project, I built and trained the base encoder architecture
           (a convolutional neural network), researched ST-DIM and its
-          prerequisite papers, and wrote and presented our findings. This was my
-          first time conducting research, and I learned how to read (and
-          re-read) papers thoroughly and how to test and evaluate model
-          performance in a scientific way.
+          prerequisite papers, wrote and revised the report, and presented our
+          findings. This was my first time conducting research, and I learned
+          how to read (and re-read!) papers thoroughly and how to evaluate model
+          performance in a scientific manner.
         </p>
         <p>
           <b>Partners:</b> Lawrence Huang, Kendrick Tan, Shekar Ramaswamy
