@@ -1,7 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans:400,700|Roboto:400,700&display=swap');
 
-$heading-font: "IBM Plex Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-$body-font: "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+$heading-font: 'IBM Plex Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI',
+  Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
+  'Segoe UI Symbol';
+$body-font: 'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+  Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
+  'Segoe UI Symbol';
 
 // regular
 $bg-light: #fcfcfc;
@@ -36,3 +40,8 @@ $section-side-pad-mobile: 2em;
 $proj-title-size: 33pt;
 $proj-title-mobile: 24pt;
 $tech-stack-size: 9pt;
+
+// .container {
+//   display: flex;
+//   margin: 0 auto;
+// }

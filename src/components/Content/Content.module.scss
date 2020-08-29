@@ -1,19 +1,23 @@
-@import "../../assets/master";
+@import '../../assets/master';
 
 .brandContainer {
-    padding: 1em $section-side-pad;
+  padding: 1em 0;
+  width: 80em;
+  @media (max-width: 1430px) {
+    padding: 2em 60px;
+  }
 }
 
 .brandLink {
-    text-transform: uppercase;
-    letter-spacing: 4px;
-    font-size: 10px;
-    color: $navlink;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  font-size: 10px;
+  color: $navlink;
 }
 
 @media (max-width: 600px) {
-    .brandContainer {
-        text-align: center;
-        padding: $section-top-pad $section-side-pad-mobile;
-    }
+  .brandContainer {
+    text-align: center;
+    padding: $section-top-pad $section-side-pad-mobile;
+  }
 }
