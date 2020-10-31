@@ -3,10 +3,9 @@ import styles from './Home.module.scss'
 import Helmet from 'react-helmet'
 import Header from './Header/Header.js'
 
-import BioSection from './BioSection/BioSection'
 import ProjShowcase from './ProjShowcase/ProjShowcase'
 import showcaseContent from '../../data/ShowcaseContent.js'
-import brownLogo from '../../assets/images/brown-logo.png'
+import ogImageUrl from '../../assets/images/ogImage.png'
 import Footer from './Footer/Footer'
 
 const Home = () => (
@@ -17,10 +16,12 @@ const Home = () => (
         {
           name: 'description',
           content:
-            "Hi, I'm Tyler Jiang, a junior at Brown University studying computer science.",
+            "Hi, I'm Tyler Jiang, a senior at Brown University studying computer science.",
         },
       ]}
-    />
+    >
+      <meta property="og:image" content={ogImageUrl} />
+    </Helmet>
     <Header />
     {/* <div className={styles.bio}>
       <BioSection
